@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -44,7 +44,7 @@ footer {
 
 header {
     margin-block-end: 2rem;
-    text-align: center;
+    /* text-align: center; */
 }
 
 header h1 {
@@ -55,30 +55,45 @@ main {
     line-height: 2;
 }
 
+main #experience > div:hover > a:not( :hover) {
+    opacity: .7;
+}
+
 main a {
     line-height: 1.5;
     transition: opacity .4s;
-    cursor: pointer;
 }
 
-main>div {
+main #experience > div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 15px;
     margin-block-end: 2rem;
 }
 
-main>div:hover>a:not( :hover) {
-    opacity: .7;
+main #experience > div > a {
+    cursor: pointer;
+}
+
+section {
+    border-block-start: 1px dashed #bebebe;
+    padding-block-start: 1rem;
 }
 
 p {
-    margin-block-end: 2rem;
+    margin-block-end: 1rem;
     width: 100%;
 }
 
+a:link,
+a:visited {
+    color: #1E1917;
+}
+
 footer {
-    margin-block-start: 3rem;
+    line-height: 2;
+    margin-block-start: 4rem;
+    margin-block-end: 3rem;
     text-align: center;
 }
 
@@ -92,7 +107,8 @@ footer {
     html {
         font-size: 1rem;
     }
-    main>div:hover>a:not( :hover) {
+
+    main #experience > div:hover > a:not( :hover) {
         opacity: 1;
     }
 }
