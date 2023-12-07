@@ -1,0 +1,405 @@
+{
+    "skills": {
+        "Programming languages": "HTML5, CSS3, ES6 (JavaScript), PHP, MYSQL, Python.",
+        "Frameworks": "Laravel, Codeignaiter, VueJs, Bootstrap, WordPress.",
+        "Tools": "CLI, IDE (VSCode), VCS (Git), API Development (Postman), Hosting Panel (CPanel), VPS (Digitalocean & BizGio), UI & Design (Figma & AI)."
+    },
+    "experience": [
+        {
+            "category": "web-dev",
+            "slug": "masjid-raya",
+            "name": "Masjidrayanegara.or.id",
+            "period": 2023,
+            "info": {
+                "en": {
+                    "summary": "Mosque Information Website.",
+                    "objective": "Mosque Information Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "HTML, CSS, JS, VueJs, AxiosJs, Blogger",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Website Informasi Masjid",
+                    "objective": "Website Informasi Masjid",
+                    "contribution": "Front-end developer",
+                    "technology": "HTML, CSS, JS, VueJs, AxiosJs, Blogger",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "web-dev",
+            "slug": "restumu-id",
+            "name": "Restumu.id",
+            "period": 2023,
+            "info": {
+                "en": {
+                    "summary": "Digital Invitation Service.",
+                    "objective": "Digital Invitation Service.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, CodeIgnaiter4",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Layanan Undangan Digital.",
+                    "objective": "Layanan Undangan Digital.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, CodeIgnaiter4",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "web-dev",
+            "slug": "gen-class",
+            "name": "GEN Marketing Class",
+            "period": 2023,
+            "info": {
+                "en": {
+                    "summary": "Online Learning Platform.",
+                    "objective": "Online Learning Platform.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP, Laravel, CodeIgnaiter4, Bootstrap",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Tempat Belajar Online.",
+                    "objective": "Tempat Belajar Online.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP, Laravel, CodeIgnaiter4, Bootstrap",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "web-dev",
+            "slug": "lms-sdm-mojorejo-2",
+            "name": "LMS SDN Mojorejo 2",
+            "period": 2021,
+            "info": {
+                "en": {
+                    "summary": "Library Management System.",
+                    "objective": "Library Management System.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Sistem Pengeloaan Perpustakaan.",
+                    "objective": "Sistem Pengeloaan Perpustakaan.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "web-dev",
+            "slug": "e-serty",
+            "name": "E-Serty",
+            "period": 2020,
+            "info": {
+                "en": {
+                    "summary": "Digital Certificate Management System.",
+                    "objective": "Digital Certificate Management System.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, JsPDF, Firebase, GMail API",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Sistem Pengelolaan Sertifikat Digital.",
+                    "objective": "Sistem Pengelolaan Sertifikat Digital.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, JsPDF, Firebase, GMail API",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "web-pro",
+            "slug": "sesirkel",
+            "name": "Sesirkel",
+            "period": 2023,
+            "info": {
+                "en": {
+                    "summary": "Subscription Management System.",
+                    "objective": "Subscription Management System.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, Laravel, Fonnte Whatsapp API, DuitKu API",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Sistem Pengeloaan Langganan.",
+                    "objective": "Sistem Pengeloaan Langganan.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, Laravel, Fonnte Whatsapp API, DuitKu API",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "web-pro",
+            "slug": "qurban-lite",
+            "name": "Qurbanlite",
+            "period": 2023,
+            "info": {
+                "en": {
+                    "summary": "Qurban Meat Distribution System.",
+                    "objective": "Qurban Meat Distribution System.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP, CodeIgnaiter4",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Sistem Distribusi Daging Qurban.",
+                    "objective": "Sistem Distribusi Daging Qurban.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP, CodeIgnaiter4",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "web-pro",
+            "slug": "sahamdaily",
+            "name": "Sahamdaily.com",
+            "period": 2022,
+            "info": {
+                "en": {
+                    "summary": "Subscription Content Management System.",
+                    "objective": "Subscription Content Management System.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, Laravel, Wordpress, Fonnte Whatsapp API",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Sistem Pengeloaan Langganan Konten.",
+                    "objective": "Sistem Pengeloaan Langganan Konten.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, Laravel, Wordpress, Fonnte Whatsapp API",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "web-pro",
+            "slug": "kontrak-freelancer",
+            "name": "Kontrak Freelancer",
+            "period": 2021,
+            "info": {
+                "en": {
+                    "summary": "Company Contract Drafting System.",
+                    "objective": "Company Contract Drafting System.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, CodeIgnaiter4",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Sistem Penulisan Kontrak Perusahaan.",
+                    "objective": "Sistem Penulisan Kontrak Perusahaan.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, CodeIgnaiter4",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "web-pro",
+            "slug": "rcms-man-negara",
+            "name": "RCMS MAN Negara",
+            "period": 2017,
+            "info": {
+                "en": {
+                    "summary": "Report Card Management System.",
+                    "objective": "Report Card Management System.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Sistem Pengeloaan Kartu Laporan.",
+                    "objective": "Sistem Pengeloaan Kartu Laporan.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "ubooster",
+            "name": "Ubooster.co.id",
+            "period": 2021,
+            "info": {
+                "en": {
+                    "summary": "Supplier Product Catalog Website.",
+                    "objective": "Supplier Product Catalog Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Website Katalog Produk Supplier.",
+                    "objective": "Website Katalog Produk Supplier.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "aladijayacoco",
+            "name": "Aladijayacoco.com",
+            "period": 2021,
+            "info": {
+                "en": {
+                    "summary": "Coconut Product Sales Website.",
+                    "objective": "Coconut Product Sales Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor, Woocommerce",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Website Penjualan Produk Kelapa.",
+                    "objective": "Website Penjualan Produk Kelapa.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor, Woocommerce",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "asdos-id",
+            "name": "Asdos.id",
+            "period": 2021,
+            "info": {
+                "en": {
+                    "summary": "Student Services Marketplace.",
+                    "objective": "Student Services Marketplace.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor, Woocommerce",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Tempat Penjualan Jasa Mahasiswa.",
+                    "objective": "Tempat Penjualan Jasa Mahasiswa.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor, Woocommerce",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "jadilegal-com",
+            "name": "Jadilegal.com",
+            "period": 2021,
+            "info": {
+                "en": {
+                    "summary": "Licensing Services Website.",
+                    "objective": "Licensing Services Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor, Woocommerce",
+                    "final": "-"
+                },
+                "id": {
+                    "summary": "Website Layanan Perijinan.",
+                    "objective": "Website Layanan Perijinan.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor, Woocommerce",
+                    "final": "-"
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "namatech-xyz",
+            "name": "Namatech.xyz",
+            "period": 2021,
+            "info": {
+                "en": {
+                    "summary": "Freelance Agency Website.",
+                    "objective": "A WordPress website for a freelance-based IT agency. The main focus is to provide an online information platform that reflects the services offered by the agency, which include technology consulting, mobile app development, and website development.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "final": "Our contribution as website developers for this agency has been successful in providing a solid overview of the agency's services on the webpage. The home page is attractively designed, presenting all the main services in a concise manner. Additional pages such as service information and about the agency are simple yet informative, making it easy for clients to understand the services and the company."
+                },
+                "id": {
+                    "summary": "Freelance Agency Website.",
+                    "objective": "Sebuah situs web WordPress untuk agensi IT berbasis freelance. Fokus utama adalah menyediakan platform informasi online yang mencerminkan layanan yang ditawarkan oleh agensi ini, mencakup konsultasi teknologi, pembuatan aplikasi mobile, dan pengembangan website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "final": "Kontribusi kami sebagai pengembang situs web untuk agensi ini telah berhasil memberikan gambaran yang padat tentang layanan agensi ini di halaman web. Home page dirancang dengan menarik, menyajikan semua layanan utama secara singkat. Halaman tambahan seperti informasi layanan dan tentang agensi ini dibuat sederhana namun informatif, memudahkan klien untuk memahami jasa dan perusahaan ini."
+                }
+            }
+        },
+        {
+            "category": "other",
+            "slug": "vue-on-blogger",
+            "name": "VueJs on Blogger",
+            "period": 2023,
+            "info": {
+                "en": {
+                    "summary": "Blogger Template.",
+                    "objective": "This project aims to simplify and improve the previously limited process of developing websites on Blogger, especially in terms of display which is limited to Blogger's XML syntax. The integration of Vue.js was done to provide flexibility to developers, allowing them to maximize the appearance and functionality of the website in a more dynamic way.",
+                    "contribution": "Creator",
+                    "technology": "XML, HTML, JS, VueJs",
+                    "final": "The end result of this project is to provide an affordable and effective alternative for website developers. With this template, developers can utilize Blogger as another option other than hosting-based CMS which are usually more expensive. This template has supported views for homepages, pages, single posts, and multiple posts. Further development is expected to come up with interesting ideas, allowing developers to create section-by-section views without the constraints of restriction in a single file, as with Blogger XML."
+                },
+                "id": {
+                    "summary": "Tema Blogger.",
+                    "objective": "Proyek ini bertujuan untuk menyederhanakan dan meningkatkan proses pengembangan website di Blogger yang sebelumnya terbatas, terutama dalam hal tampilan yang terbatas pada sintaks XML Blogger. Integrasi Vue.js dilakukan untuk memberikan fleksibilitas kepada pengembang, memungkinkan mereka memaksimalkan tampilan dan fungsionalitas website dengan cara yang lebih dinamis.",
+                    "contribution": "Creator",
+                    "technology": "XML, HTML, JS, VueJs",
+                    "final": "Hasil akhir dari proyek ini adalah memberikan alternatif yang terjangkau dan efektif bagi pengembang website. Dengan templat ini, pengembang dapat memanfaatkan Blogger sebagai opsi lain selain CMS berbasis hosting yang biasanya lebih mahal. Template ini telah mendukung tampilan untuk beranda, halaman, posting tunggal, dan posting ganda. Pengembangan lebih lanjut diharapkan dapat menghasilkan ide-ide menarik, memungkinkan pengembang membuat tampilan per bagian tanpa kendala dari pembatasan dalam satu file, seperti pada Blogger XML."
+                }
+            }
+        },
+        {
+            "category": "other",
+            "slug": "kkuljaem-korean",
+            "name": "Kkuljaem Korean",
+            "period": 2020,
+            "info": {
+                "en": {
+                    "summary": "UX mobile app design.",
+                    "objective": "Korean-Indonesian Language Learning Application Development Project that can be accessed flexibly, attractively, and easily anytime, anywhere.",
+                    "contribution": "UX designer",
+                    "technology": "Figma, Adobe Illustrator, Notion, Lark",
+                    "final": "We as UX Designers in the main design team of this application, especially in the mobile version, have successfully designed various UX designs as support in its development. The final results include User Flows that visualize the user flow during interaction with the application, as well as Wireframes as an application interface concept with the aim of creating a more optimal and satisfying user experience."
+                },
+                "id": {
+                    "summary": "Rancangan UX aplikasi mobile.",
+                    "objective": "Projek Pengembangan Aplikasi Belajar Bahasa Korea-Indonesia yang dapat diakses secara fleksibel, menarik, dan mudah kapan saja, di mana saja.",
+                    "contribution": "UX designer",
+                    "technology": "Figma, Adobe Illustrator, Notion, Lark",
+                    "final": "Kami sebagai Desainer UX dalam tim desain utama aplikasi ini khususnya pada versi mobile, telah berhasil merancang berbagai desain UX sebagai pendukung dalam pengembangannya. Hasil akhir tersebut mencakup User Flows yang memvisualisasikan alur pengguna selama interaksi dengan aplikasi, serta Wireframes sebagai konsep antarmuka aplikasi dengan tujuan menciptakan pengalaman pengguna yang lebih optimal dan memuaskan."
+                }
+            }
+        },
+        {
+            "category": "other",
+            "slug": "uin-citation",
+            "name": "UIN Malang Citation 2013",
+            "period": 2018,
+            "info": {
+                "en": {
+                    "summary": "Microsoft Word-style Citation.",
+                    "objective": "A Microsoft Word style citation is specifically designed to assist students, especially at the Faculty of Law, Maulana Malik Ibrahim State Islamic University Malang, in presenting citations according to guidelines easily and quickly, without having to install third-party applications.",
+                    "contribution": "Creator",
+                    "technology": "XML",
+                    "final": "As the developer of this Microsoft Word citation style, we have designed this citation style to accept various references in journal and thesis writing, such as books, journals, interviews, and laws and regulations. Other additional features include double footnote/ibid writing, customization of footnote writing to avoid errors in plagiarism checks, and automatic bibliography creation categorized by reference type."
+                },
+                "id": {
+                    "summary": "Gaya Penulisan Sitiran Microsoft Word.",
+                    "objective": "Sebuah Microsoft Word style citation dirancang khusus untuk membantu mahasiswa, terutama di Fakultas Hukum Universitas Islam Negeri Maulana Malik Ibrahim Malang, dalam menyajikan sitiran sesuai pedoman secara mudah dan cepat, tanpa harus menginstal aplikasi pihak ketiga.",
+                    "contribution": "Creator",
+                    "technology": "XML",
+                    "final": "Kami sebagai pengembang Microsoft Word style citation ini, kami telah merancang agar style citation ini dapat menerima berbagai referensi dalam penulisan jurnal dan skripsi, seperti buku, jurnal, wawancara, dan peraturan perundang-undangan. Fitur tambahan lainnya mencakup penulisan catatan kaki ganda/ibid, penyesuaian penulisan catatan kaki untuk menghindari kesalahan dalam pemeriksaan plagiarisme, dan penyusunan daftar pustaka otomatis yang terkategori berdasarkan jenis referensi."
+                }
+            }
+        }
+    ]
+}

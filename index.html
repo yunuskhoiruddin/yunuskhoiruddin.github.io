@@ -5,134 +5,70 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Muhammad Yunus Khoiruddin</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/scripts/style.css">
+        <script src="/scripts/vue.global.js" defer></script>
+        <script src="/scripts/vue-router.global.js" defer></script>
+        <script src="/scripts/app.js" defer></script>
     </head>
     <body>
-
-        <header>
-            <h1>Muhammad Yunus Khoiruddin</h1>
-            <h3>Freelancer from Bali</h3>
-        </header>
-
-        <main>
+        <div id="app"></div>
+        <template id="app-view">
+            <header>
+                <h1>Muhammad Yunus Khoiruddin</h1>
+                <h3>Freelancer from Bali</h3>
+            </header>
+            <router-view v-slot="{ Component, route }" :database="database">
+                <Transition name="fade" mode="out-in">
+                    <main :key="route.name">
+                        <component :is="Component" :database="database"></component>
+                    </main>
+                </Transition>
+            </router-view>
+            <footer>
+                &copy; 2017-2023
+            </footer>
+        </template>
+        <template id="home">
             <section id="skills">
                 <h2>Skills</h2>
-                <h3>Programming languages</h3>
-                <p>
-                    HTML, CSS, JavaScript (ES6), PHP, SQL, Python.
-                </p>
-                <h3>Frameworks</h3>
-                <p>
-                    Laravel, Codeignaiter, VueJs, Bootstrap, WordPress.
-                </p>
-                <h3>Tools</h3>
-                <p>
-                    IDE (VSCode), CLI, VCS (Git), Postman, Web Hosting, VPS, Figma.
-                </p>
+                <article v-for="(text, title) in skills" :key="title"
+                    v-if="loaded">
+                    <h3>{{title}}</h3>
+                    <p>{{text}}</p>
+                </article>
             </section>
-
             <section id="experience">
                 <h2>Experience</h2>
-                <h3>Web Developer:</h3>
-                <div>
-                    <a>
-                        <b>Masjidrayanegara.or.id</b><br>
-                        Mosque Information Website.<br>
-                        2023
-                    </a>
-                    <a>
-                        <b>Restumu.id</b><br>
-                        Digital Invitation Service.<br>
-                        2023
-                    </a>
-                    <a>
-                        <b>GEN Marketing Class</b><br>
-                        Online Learning Platform.<br>
-                        2023
-                    </a>
-                    <a>
-                        <b>LMS SDN Mojorejo 2</b><br>
-                        Library Management System.<br>
-                        2021
-                    </a>
-                    <a>
-                        <b>E-Serty</b><br>
-                        Digital Certificate Management System.<br>
-                        2020
-                    </a>
-                </div>
-    
-                <h3>Web Programmer:</h3>
-                <div>
-                    <a>
-                        <b>Sesirkel</b><br>
-                        Subscription Management System.<br>
-                        2023
-                    </a>
-                    <a>
-                        <b>Qurbanlite</b><br>
-                        Qurban Meat Distribution System.<br>
-                        2023
-                    </a>
-                    <a>
-                        <b>Sahamdaily.com</b><br>
-                        Subscription Content Management System.<br>
-                        2022
-                    </a>
-                    <a>
-                        <b>Kontrak Freelancer</b><br>
-                        Company Contract Drafting System.<br>
-                        2021
-                    </a>
-                    <a>
-                        <b>RCMS MAN Negara</b><br>
-                        Report Card Management System.<br>
-                        2017
-                    </a>
-                </div>
-    
-                <h3>WordPress Developer:</h3>
-                <div>
-                    <a>
-                        <b>Ubooster.co.id</b><br>
-                        Supplier Product Catalog Website.<br>
-                        2021
-                    </a>
-                    <a>
-                        <b>Aladijayacoco.com</b><br>
-                        Coconut Product Sales Website.<br>
-                        2021
-                    </a>
-                    <a>
-                        <b>Asdos.id</b><br>
-                        Student Services Marketplace.<br>
-                        2021
-                    </a>
-                    <a>
-                        <b>Jadilegal.com</b><br>
-                        Licensing Services Website.<br>
-                        2021
-                    </a>
-                </div>
-    
-                <h3>Other:</h3>
-                <div>
-                    <a>
-                        <b>Kkuljaem Korean</b><br>
-                        UX mobile app design.<br>
-                        2020
-                    </a>
-                    <a>
-                        <b>UIN Malang Citation 2013</b><br>
-                        Microsoft Word-style Citation.<br>
-                        2018
-                    </a>
-                    <a></a>
-                </div>
+                <article v-for="(category ,key) in categories" :key="key"
+                    v-if="loaded">
+                    <h3>{{category}}:</h3>
+                    <div>
+                        <router-link v-for="item in filterCategory(items, key)"
+                            :to="{name:'detail',params:{slug:item.slug}}"
+                            :id="'proj-'+item.slug">
+                            <b>{{item.name}}</b><br>
+                            {{item.info.en.summary}}<br>
+                            {{item.period}}
+                        </router-link>
+                    </div>
+                </article>
             </section>
-        </main>
-        <footer>
-            &copy; 2017-2023
-        </footer>
+        </template>
+        <template id="detail">
+            <router-link :to="{name:'home'}">Back</router-link>
+            <section id="detail">
+                <h1 style="line-height: 1;">{{item.name}}</h1>
+                <p>{{item.period}} | {{item.info.en.summary}}</p>
+                <b>Project Objective:</b>
+                <p>{{item.info.en.objective}}</p>
+                <b>Contribution:</b>
+                <p>{{item.info.en.contribution}}</p>
+                <b>Technology Used:</b>
+                <p>{{item.info.en.technology}}</p>
+                <b>Final Outcome:</b>
+                <p>{{item.info.en.final}}</p>
+            </section>
+        </template>
     </body>
 </html>
