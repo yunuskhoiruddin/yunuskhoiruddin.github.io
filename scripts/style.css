@@ -54,6 +54,8 @@ header h1 {
 }
 
 main {
+    transition: all 1s;
+    min-height: 60vmin;
     line-height: 2;
     z-index: 1;
 }
@@ -92,6 +94,10 @@ p {
 a:link,
 a:visited {
     color: #1E1917;
+}
+
+a.lang {
+    cursor: pointer;
 }
 
 footer {

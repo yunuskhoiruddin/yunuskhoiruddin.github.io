@@ -14,41 +14,43 @@
     <body>
         <div id="app"></div>
         <template id="app-view">
-            <header>
-                <h1>Muhammad Yunus Khoiruddin</h1>
-                <h3>Freelancer from Bali</h3>
-            </header>
-            <router-view v-slot="{ Component, route }" :database="database">
+            <transition name="fade">
+                <header v-if="!loading">
+                    <h1>Muhammad Yunus Khoiruddin</h1>
+                    <h3>Freelancer from Bali</h3>
+                </header>
+            </transition>
+            <router-view v-slot="{ Component, route }">
                 <Transition name="fade" mode="out-in">
                     <main :key="route.name">
-                        <component :is="Component" :database="database"></component>
+                        <component :is="Component" @loadoff="loadoff"></component>
                     </main>
                 </Transition>
             </router-view>
-            <footer>
-                &copy; 2017-2023
-            </footer>
+            <transition name="fade">
+                <footer v-if="!loading">
+                    <a @click="switchLang" class="lang">{{upper(lang)}}</a> | &copy; 2017-2023
+                </footer>
+            </transition>
         </template>
         <template id="home">
             <section id="skills">
                 <h2>Skills</h2>
-                <article v-for="(text, title) in skills" :key="title"
-                    v-if="loaded">
+                <article v-for="(text, title) in skills" :key="title">
                     <h3>{{title}}</h3>
                     <p>{{text}}</p>
                 </article>
             </section>
             <section id="experience">
                 <h2>Experience</h2>
-                <article v-for="(category ,key) in categories" :key="key"
-                    v-if="loaded">
+                <article v-for="(category ,key) in categories" :key="key">
                     <h3>{{category}}:</h3>
                     <div>
                         <router-link v-for="item in filterCategory(items, key)"
                             :to="{name:'detail',params:{slug:item.slug}}"
                             :id="'proj-'+item.slug">
                             <b>{{item.name}}</b><br>
-                            {{item.info.en.summary}}<br>
+                            {{item.info[lang].summary}}<br>
                             {{item.period}}
                         </router-link>
                     </div>
@@ -57,17 +59,17 @@
         </template>
         <template id="detail">
             <router-link :to="{name:'home'}">Back</router-link>
-            <section id="detail">
+            <section id="detail" v-if="item">
                 <h1 style="line-height: 1;">{{item.name}}</h1>
-                <p>{{item.period}} | {{item.info.en.summary}}</p>
+                <p>{{item.period}} | {{info.summary}}</p>
                 <b>Project Objective:</b>
-                <p>{{item.info.en.objective}}</p>
+                <p>{{info.objective}}</p>
                 <b>Contribution:</b>
-                <p>{{item.info.en.contribution}}</p>
+                <p>{{info.contribution}}</p>
                 <b>Technology Used:</b>
-                <p>{{item.info.en.technology}}</p>
+                <p>{{info.technology}}</p>
                 <b>Final Outcome:</b>
-                <p>{{item.info.en.final}}</p>
+                <p>{{info.final}}</p>
             </section>
         </template>
     </body>

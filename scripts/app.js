@@ -4,32 +4,53 @@ const listCategories = {
     'wp-dev': 'Wordpress Developer',
     'other': 'Other'
 }
-
+async function database(){
+    try {
+        let response = await fetch('/assets/database.json', {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' }
+        });
+        let body = await response.json();
+        return body;
+    } catch (error) {
+        console.error(error);
+    }
+}
+const scrollPosition = {
+    x:0, y:0
+}
 const routes = [
     {
         name: 'home',
         path: '/',
         component: {
-            props: ['database'],
-            data() {
-                return {
-                    items: [],
-                    categories: listCategories,
-                    skills: {},
-                    loaded: false
-                };
-            },
+            emits: ['loadoff'],
+            data() { return {
+                db: null,
+                items: [],
+                categories: listCategories,
+                skills: {},
+                lang: localStorage.getItem('lang') || 'en'
+            }},
             async created() {
                 Object.keys(this.categories).forEach((item) => (this.items[item] = []));
-                this.skills = this.database.skills;
-                this.items = this.database.experience;
-                this.loaded = true;
+                this.db = await database();
+                this.skills = this.db.skills;
+                this.items = this.db.experience;
+                this.$emit('loadoff');
+                setTimeout(() => window.scrollTo(scrollPosition.x, scrollPosition.y), 1);
+                return true;
             },
-            mounted() {},
             methods: {
                 filterCategory(items, key) {
                     return items.filter((item) => item.category == key);
                 },
+            },
+            mounted() {},
+            beforeRouteLeave(to, from, next) {
+                scrollPosition.x = window.scrollX;
+                scrollPosition.y = window.scrollY;
+                next();
             },
             template: '#home',
         },
@@ -38,16 +59,24 @@ const routes = [
         name: 'detail',
         path: '/project/:slug',
         component: {
-            props: ['database'],
-            data() {
-                return {
-                    slug: this.$route.params.slug,
-                    item: {},
-                };
-            },
-            created() {
-                this.item = this.database.experience.find((item) => item.slug == this.slug);
+            emits: ['loadoff'],
+            data() { return {
+                db: null,
+                slug: this.$route.params.slug,
+                item: null,
+                info: null
+            }},
+            async created() {
+                this.db = await database();
+                this.item = this.db.experience.find((item) => item.slug == this.slug);
                 if (!this.item) this.$router.push({ path: '/', replace: true });
+                let lang = localStorage.getItem('lang') || 'en';
+                this.info = this.item.info[lang];
+                this.$emit('loadoff');
+                return true;
+            },
+            mounted() {
+                window.scrollTo(0, 0);
             },
             template: '#detail',
         },
@@ -62,57 +91,31 @@ const routes = [
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHistory(),
     routes,
-    scrollBehavior(to, from, savedPosition) {
-        return { top: 0 };
-    },
 });
 
 const app = Vue.createApp({
-    data() {
-        return {
-            database: {
-                skills: [],
-                experience: []
-            },
-            dataLoaded: false  // Tambahkan properti ini untuk menandakan apakah data sudah selesai diambil
-        };
-    },
-    methods: {},
-    async mounted() {
-        try {
-            const response = await fetch('/assets/database.json', {
-                method: 'GET',
-                headers: { 'Content-Type': 'application/json' },
-            });
-            const body = await response.json();
-            this.database = body;
-            this.dataLoaded = true;  // Setelah data selesai diambil, atur properti dataLoaded menjadi true
-        } catch (error) {
-            console.error(error);
-        }
+    data() { return {
+        loading: true,
+        lang: localStorage.getItem('lang') || 'en',
+    }},
+    methods: {
+        loadoff() {
+            this.loading = false
+        },
+        switchLang() {
+            let lang = this.lang == 'en' ? 'id' : 'en'
+            localStorage.setItem('lang', lang);
+            this.$router.go(0);
+        },
+        upper(value){
+            if(!value) return ''
+                value = value.toString()
+            return value.toUpperCase()
+        },
     },
     template: '#app-view',
 });
 
 app.use(router);
-
-// Gunakan event `beforeRouteEnter` untuk mengecek apakah data sudah selesai diambil sebelum masuk ke route
-router.beforeEach(async (to, from, next) => {
-    if (to.matched.some(record => record.meta.requiresData)) {
-        if (!app.dataLoaded) {
-            // Jika data belum selesai diambil, tunggu hingga selesai
-            await new Promise(resolve => {
-                const interval = setInterval(() => {
-                    if (app.dataLoaded) {
-                        clearInterval(interval);
-                        resolve();
-                    }
-                }, 100);
-            });
-        }
-    }
-    next();
-});
-
 app.mount('#app');
 
