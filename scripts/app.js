@@ -64,14 +64,14 @@ const routes = [
                 db: null,
                 slug: this.$route.params.slug,
                 item: null,
-                info: null
+                info: null,
+                lang: localStorage.getItem('lang') || 'en'
             }},
             async created() {
                 this.db = await database();
                 this.item = this.db.experience.find((item) => item.slug == this.slug);
                 if (!this.item) this.$router.push({ path: '/', replace: true });
                 let lang = localStorage.getItem('lang') || 'en';
-                this.info = this.item.info[lang];
                 this.$emit('loadoff');
                 return true;
             },
@@ -97,6 +97,10 @@ const app = Vue.createApp({
     data() { return {
         loading: true,
         lang: localStorage.getItem('lang') || 'en',
+        job: {
+            "id": "Pekerja Lepas asal Bali",
+            "en": "Freelancers from Bali"
+        }
     }},
     methods: {
         loadoff() {

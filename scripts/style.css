@@ -49,8 +49,8 @@ header {
     z-index: 1;
 }
 
-header h1 {
-    margin-block-end: 1rem;
+header h3 {
+    font-weight: normal;
 }
 
 main {

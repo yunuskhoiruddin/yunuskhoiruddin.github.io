@@ -2,7 +2,7 @@
     "skills": {
         "Programming languages": "HTML5, CSS3, ES6 (JavaScript), PHP, MYSQL, Python.",
         "Frameworks": "Laravel, Codeignaiter, VueJs, Bootstrap, WordPress.",
-        "Tools": "CLI, IDE (VSCode), VCS (Git), API Development (Postman), Hosting Panel (CPanel), VPS (Digitalocean & BizGio), UI & Design (Figma & AI)."
+        "Tools": "CLI, IDE (VSCode), VCS (Git), API Development (Postman), VPS (Digitalocean & BizGio), UI & Design (Figma & AI)."
     },
     "experience": [
         {
@@ -15,15 +15,15 @@
                     "summary": "Website Informasi Masjid",
                     "contribution": "Front-end developer",
                     "technology": "HTML, CSS, JS, VueJs, AxiosJs, Blogger",
-                    "objective": "Website Informasi Masjid",
-                    "final": "-"
+                    "focus": "Mengembangkan Website Informasi Masjid yang menyediakan blog untuk informasi kegiatan masjid, rincian fasilitas dan layanan masjid, serta informasi penting untuk jamaah terkait pembangunan masjid. Fokus utamanya adalah memberikan sumber informasi yang komprehensif dan mudah diakses bagi komunitas masjid.",
+                    "final": "Kami sebagai pengembang telah berhasil menciptakan Website Informasi Masjid yang informatif dan interaktif. Blog kegiatan masjid memberikan wawasan mendalam tentang aktivitas komunitas. Rincian fasilitas dan layanan masjid memberikan informasi yang jelas kepada pengunjung. Selain itu, informasi tentang pembangunan masjid memberikan kesadaran dan partisipasi yang lebih besar dari jamaah."
                 },
                 "en": {
                     "summary": "Mosque Information Website.",
                     "contribution": "Front-end developer",
                     "technology": "HTML, CSS, JS, VueJs, AxiosJs, Blogger",
-                    "objective": "Mosque Information Website.",
-                    "final": "-"
+                    "focus": "Developed a Mosque Information Website that provides a blog for information on mosque activities, details of mosque facilities and services, as well as important information for worshipers regarding mosque construction. The main focus is to provide a comprehensive and easily accessible source of information for the mosque community.",
+                    "final": "We as developers have successfully created an informative and interactive Mosque Information Website. The mosque activities blog provides an in-depth insight into the activities of the community. Details of mosque facilities and services provide clear information to visitors. In addition, information about the construction of the mosque provides greater awareness and participation from the congregation."
                 }
             }
         },
@@ -37,15 +37,15 @@
                     "summary": "Layanan Undangan Digital.",
                     "contribution": "Back-end developer",
                     "technology": "PHP, CodeIgnaiter4",
-                    "objective": "Layanan Undangan Digital.",
-                    "final": "-"
+                    "focus": "Mengembangkan Layanan Undangan Digital yang mencakup pengelolaan data tamu undangan, informasi kehadiran tamu, pembuatan undangan digital, dan distribusi tautan undangan kepada para tamu. Fokus utamanya adalah memberikan solusi praktis dan efisien dalam manajemen undangan untuk berbagai acara.",
+                    "final": "Kami sebagai pengembang telah berhasil menciptakan Layanan Undangan Digital yang menyeluruh. Sistem ini mencakup pengelolaan data tamu undangan dengan baik, menyediakan informasi yang akurat mengenai kehadiran tamu. Pembuatan undangan digital menjadi lebih mudah dan efisien, serta distribusi tautan undangan memberikan akses yang cepat kepada para tamu."
                 },
                 "en": {
                     "summary": "Digital Invitation Service.",
                     "contribution": "Back-end developer",
                     "technology": "PHP, CodeIgnaiter4",
-                    "objective": "Digital Invitation Service.",
-                    "final": "-"
+                    "focus": "Developed a Digital Invitation Service that includes management of invited guest data, guest attendance information, digital invitation generation, and distribution of invitation links to guests. The main focus is to provide practical and efficient solutions in invitation management for various events.",
+                    "final": "We as developers have successfully created a comprehensive Digital Invitation Service. The system includes proper management of invited guest data, providing accurate information on guest attendance. Digital invitation creation is easier and more efficient, and invitation link distribution provides quick access to guests."
                 }
             }
         },
@@ -59,15 +59,15 @@
                     "summary": "Tempat Belajar Online.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, PHP, Laravel, CodeIgnaiter4, Bootstrap",
-                    "objective": "Tempat Belajar Online.",
-                    "final": "-"
+                    "focus": "Mengembangkan Online Learning Platform yang mendalami ilmu marketing dan penjualan melalui media online. Platform ini berkomitmen menciptakan lingkungan pembelajaran yang terbuka, beragam, dan dapat diakses oleh berbagai anggota melalui media digital, seperti kursus dan ebook.",
+                    "final": "Sebagai pengembang, kami berhasil menciptakan sistem yang menangani video kursus dan ebook. Kami juga mengembangkan sistem pembayaran yang fleksibel untuk konten berbayar maupun gratis, memberikan fleksibilitas yang optimal dalam proses pembelajaran."
                 },
                 "en": {
                     "summary": "Online Learning Platform.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, PHP, Laravel, CodeIgnaiter4, Bootstrap",
-                    "objective": "Online Learning Platform.",
-                    "final": "-"
+                    "focus": "Developing an Online Learning Platform that explores marketing and sales knowledge through online media. This platform is committed to creating a learning environment that is open, diverse, and accessible to a wide range of members through digital media, such as courses and ebooks.",
+                    "final": "As developers, we successfully created a system that handles video courses and ebooks. We also developed a flexible payment system for both paid and free content, providing optimal flexibility in the learning process."
                 }
             }
         },
@@ -81,15 +81,15 @@
                     "summary": "Sistem Pengeloaan Perpustakaan.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, PHP",
-                    "objective": "Sistem Pengeloaan Perpustakaan.",
-                    "final": "-"
+                    "focus": "Mengembangkan Sistem Pengelolaan Perpustakaan untuk salah satu instansi pendidikan di Kota Malang, dengan fokus awal pada pengelolaan peminjaman buku dan penyediaan ebook. Tujuan utamanya adalah memberikan solusi terintegrasi untuk efisiensi dalam operasional perpustakaan dan memperluas akses terhadap sumber bacaan digital.",
+                    "final": "Kami sebagai pengembang telah berhasil menciptakan Sistem Pengelolaan Perpustakaan yang memenuhi kebutuhan salah satu instansi pendidikan di Kota Malang. Proses peminjaman buku menjadi lebih terstruktur, memberikan kemudahan bagi pengelolaan koleksi perpustakaan. Penyediaan ebook melibatkan penggunaan platform yang intuitif, memperluas akses siswa terhadap sumber bacaan digital."
                 },
                 "en": {
                     "summary": "Library Management System.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, PHP",
-                    "objective": "Library Management System.",
-                    "final": "-"
+                    "focus": "Developed a Library Management System for one of the educational institutions in Malang City, with an initial focus on book loan management and ebook provision. The ultimate goal is to provide an integrated solution for efficiency in library operations and expand access to digital reading resources.",
+                    "final": "We as developers have successfully created a Library Management System that meets the needs of one of the educational institutions in Malang City. The book lending process has become more structured, providing convenience for library collection management. The provision of ebooks involves the use of an intuitive platform, expanding students' access to digital reading resources."
                 }
             }
         },
@@ -103,15 +103,15 @@
                     "summary": "Sistem Pengelolaan Sertifikat Digital.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, JsPDF, Firebase, GMail API",
-                    "objective": "Sistem Pengelolaan Sertifikat Digital.",
-                    "final": "-"
+                    "focus": "Mengembangkan sistem pengelolaan Sertifikat Digital untuk organisasi pendidikan, dengan peran utama dalam pendataan peserta, otomatisasi penamaan sertifikat, dan penyediaan platform unduhan sertifikat. Tujuannya adalah memperbaiki efisiensi administrasi dan meningkatkan pengalaman peserta dalam mendapatkan sertifikat digital.",
+                    "final": "Kami sebagai pengembang telah berhasil menciptakan solusi yang memajukan manajemen sertifikat digital. Proses pendataan peserta telah diperbarui, meningkatkan ketelitian dan keteraturan data. Penamaan sertifikat yang otomatis membawa efisiensi dalam proses produksi dan mengurangi tugas manual. Platform unduhan sertifikat dirancang untuk memberikan akses yang mudah dan nyaman bagi peserta."
                 },
                 "en": {
                     "summary": "Digital Certificate Management System.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, JsPDF, Firebase, GMail API",
-                    "objective": "Digital Certificate Management System.",
-                    "final": "-"
+                    "focus": "Developed a Digital Certificate management system for educational organizations, with a leading role in participant enrollment, certificate naming automation, and certificate download platform provision. The goal is to improve administrative efficiency and enhance participants' experience in obtaining digital certificates.",
+                    "final": "We as developers have successfully created a solution that advances digital certificate management. The participant enrollment process has been updated, improving data accuracy and regularity. Automated certificate naming brings efficiency to the production process and reduces manual tasks. The certificate download platform is designed to provide easy and convenient access for participants."
                 }
             }
         },
@@ -125,14 +125,14 @@
                     "summary": "Sistem Pengeloaan Langganan.",
                     "contribution": "Back-end developer",
                     "technology": "PHP, Laravel, Fonnte Whatsapp API, DuitKu API",
-                    "objective": "Mengembangkan sistem pengelolaan langganan untuk bisnis yang menyediakan layanan manajemen akun berbayar secara bersama-sama atau patungan untuk berbagai platform seperti YouTube, Spotify, dan lainnya. Fokus utamanya adalah menciptakan sistem pengelolaan yang terstruktur dengan baik.",
+                    "focus": "Mengembangkan sistem pengelolaan langganan untuk bisnis yang menyediakan layanan manajemen akun berbayar secara bersama-sama atau patungan untuk berbagai platform seperti YouTube, Spotify, dan lainnya. Fokus utamanya adalah menciptakan sistem pengelolaan yang terstruktur dengan baik.",
                     "final": "Sebagai pengembang, kami berhasil menciptakan sistem pengelolaan langganan yang efisien untuk bisnis ini. Sistem ini menyediakan kemudahan pembayaran, dengan pengingat perpanjangan otomatis untuk memastikan kelancaran langganan. Fitur pengelompokan anggota kelompok langganan dirancang agar terstruktur dengan baik, memudahkan manajemen dan komunikasi. Sehingga memberikan kemudahan proses pembayaran, pengelolaan langganan yang lancar, serta organisasi yang baik dalam pengelompokan anggota langganan."
                 },
                 "en": {
                     "summary": "Subscription Management System.",
                     "contribution": "Back-end developer",
                     "technology": "PHP, Laravel, Fonnte Whatsapp API, DuitKu API",
-                    "objective": "Developed a subscription management system for businesses that provide paid account management services jointly or jointly for various platforms such as YouTube, Spotify, and others. The main focus was to create a well-structured management system.",
+                    "focus": "Developed a subscription management system for businesses that provide paid account management services jointly or jointly for various platforms such as YouTube, Spotify, and others. The main focus was to create a well-structured management system.",
                     "final": "As developers, we managed to create an efficient subscription management system for this business. The system provides ease of payment, with automatic renewal reminders to ensure smooth subscriptions. The grouping feature of subscription group members is designed to be well-structured, making management and communication easy. It provides easy payment processing, smooth subscription management, and good organization in the grouping of subscription members."
                 }
             }
@@ -147,14 +147,14 @@
                     "summary": "Sistem Distribusi Daging Qurban.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, PHP, CodeIgnaiter4",
-                    "objective": "Mengembangkan sistem distribusi daging qurban yang akan dapat  mengatur daftar penerima, mengelola kupon, dan membuat laporan akhir kegiatan. Fokus utamanya adalah memudahkan distribusi daging qurban, menjaga transparansi, dan menyederhanakan administrasi kegiatan ini.",
+                    "focus": "Mengembangkan sistem distribusi daging qurban yang akan dapat  mengatur daftar penerima, mengelola kupon, dan membuat laporan akhir kegiatan. Fokus utamanya adalah memudahkan distribusi daging qurban, menjaga transparansi, dan menyederhanakan administrasi kegiatan ini.",
                     "final": "Sebagai pengembang, kami berhasil menciptakan sistem distribusi daging qurban yang terstruktur. Sistem ini membantu mengorganisir daftar penerima daging qurban berdasarkan wilayah, mengelola kupon kurban dengan efisien, melakukan verifikasi saat penerima mengambil daging qurban, dan fitur pembuatan laporan akhir kegiatan yang otomatis. Sistem ini memberikan gambaran lengkap mengenai distribusi daging qurban bagi panitia kegiatan."
                 },
                 "en": {
                     "summary": "Qurban Meat Distribution System.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, PHP, CodeIgnaiter4",
-                    "objective": "Develop a qurban meat distribution system that will be able to organize the list of recipients, manage coupons, and create a final report of the activity. The main focus is to facilitate qurbani meat distribution, maintain transparency, and simplify the administration of this activity.",
+                    "focus": "Develop a qurban meat distribution system that will be able to organize the list of recipients, manage coupons, and create a final report of the activity. The main focus is to facilitate qurbani meat distribution, maintain transparency, and simplify the administration of this activity.",
                     "final": "As developers, we managed to create a structured qurbani meat distribution system. This system helps organize the list of qurbani meat recipients by region, manage qurbani coupons efficiently, verify when the recipients pick up the qurbani meat, and an automatic end-of-activity report generation feature. This system provides a complete overview of qurbani meat distribution for the event committee."
                 }
             }
@@ -169,14 +169,14 @@
                     "summary": "Sistem Pengeloaan Langganan Konten.",
                     "contribution": "Back-end developer",
                     "technology": "PHP, Laravel, Wordpress, Fonnte Whatsapp API",
-                    "objective": "Mengembangkan sistem pengelolaan langganan konten, di mana sistem akan mengelola pelanggan yang membayar untuk mendapatkan pembaruan konten berkaitan dengan saham selama mereka berlangganan. Fokus utamanya adalah memberikan solusi efisien untuk pengelolaan pelanggan dan konten yang dikirimkan.",
+                    "focus": "Mengembangkan sistem pengelolaan langganan konten, di mana sistem akan mengelola pelanggan yang membayar untuk mendapatkan pembaruan konten berkaitan dengan saham selama mereka berlangganan. Fokus utamanya adalah memberikan solusi efisien untuk pengelolaan pelanggan dan konten yang dikirimkan.",
                     "final": "Sebagai pengembang, kami telah berhasil menciptakan sistem pengelolaan langganan konten yang efisien. Sistem ini memungkinkan pelanggan untuk berlangganan dan menerima pembaruan konten berkaitan dengan saham, dengan berbagai format seperti dokumen, artikel, atau audio. Dengan fitur pengelolaan pelanggan yang otomatis, sistem dapat memberikan konten yang sesuai dengan preferensi pelanggan secara langsung."
                 },
                 "en": {
                     "summary": "Subscription Content Management System.",
                     "contribution": "Back-end developer",
                     "technology": "PHP, Laravel, Wordpress, Fonnte Whatsapp API",
-                    "objective": "Developed a content subscription management system, where the system will manage paying subscribers to get content updates related to stocks during their subscription. The main focus was to provide an efficient solution for the management of subscribers and delivered content.",
+                    "focus": "Developed a content subscription management system, where the system will manage paying subscribers to get content updates related to stocks during their subscription. The main focus was to provide an efficient solution for the management of subscribers and delivered content.",
                     "final": "As developers, we have successfully created an efficient content subscription management system. The system allows subscribers to subscribe and receive updates on stock-related content, with various formats such as documents, articles, or audio. With automated subscriber management features, the system can deliver content that matches subscribers' preferences directly."
                 }
             }
@@ -191,14 +191,14 @@
                     "summary": "Sistem Penulisan Kontrak Perusahaan.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, CodeIgnaiter4",
-                    "objective": "Mengembangkan sistem penulisan kontrak untuk perusahaan IT, yang mencakup pengelolaan database pekerja lepas, pengaturan tugas individu pekerja, dan otomatisasi pengelolaan kontrak pekerja. Fokus utamanya adalah memberikan solusi efisien untuk administrasi dan pengarsipan perusahaan dengan menyederhanakan proses penulisan dan pemeliharaan kontrak.",
+                    "focus": "Mengembangkan sistem penulisan kontrak untuk perusahaan IT, yang mencakup pengelolaan database pekerja lepas, pengaturan tugas individu pekerja, dan otomatisasi pengelolaan kontrak pekerja. Fokus utamanya adalah memberikan solusi efisien untuk administrasi dan pengarsipan perusahaan dengan menyederhanakan proses penulisan dan pemeliharaan kontrak.",
                     "final": "Sebagai pengembang, kami telah berhasil menciptakan sistem penulisan kontrak yang komprehensif untuk perusahaan IT. Pengelolaan database pekerja lepas memberikan kemudahan dalam melacak dan mengelola informasi pekerja dengan efisien. Dengan fitur pengaturan tugas individu, perusahaan dapat mendistribusikan tugas secara fleksibel kepada pekerja. Sistem ini dirancang untuk meningkatkan efisiensi administrasi dan manajemen pekerja lepas, memberikan solusi yang tangguh bagi kebutuhan kontrak perusahaan IT."
                 },
                 "en": {
                     "summary": "Company Contract Drafting System.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, CodeIgnaiter4",
-                    "objective": "Developed a contract writing system for IT companies, which includes the management of freelancer databases, organization of individual worker tasks, and automation of worker contract management. The main focus is to provide efficient solutions for company administration and filing by simplifying the process of writing and maintaining contracts.",
+                    "focus": "Developed a contract writing system for IT companies, which includes the management of freelancer databases, organization of individual worker tasks, and automation of worker contract management. The main focus is to provide efficient solutions for company administration and filing by simplifying the process of writing and maintaining contracts.",
                     "final": "As a developer, we have successfully created a comprehensive contract writing system for IT companies. Freelance database management makes it easy to track and manage worker information efficiently. With the individual task setting feature, companies can flexibly distribute tasks to workers. The system is designed to improve the efficiency of freelance administration and management, providing a robust solution for IT companies' contracting needs."
                 }
             }
@@ -213,14 +213,14 @@
                     "summary": "Sistem Pengeloaan Kartu SPP.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, PHP",
-                    "objective": "Mengembangkan sistem manajemen kartu SPP untuk sekolah MA/SMA, dengan fokus untuk menyederhanakan proses administrasi pembayaran SPP, memberikan kemudahan dalam mengelola data siswa, serta memberikan opsi pencetakan kartu SPP secara langsung.",
+                    "focus": "Mengembangkan sistem manajemen kartu SPP untuk sekolah MA/SMA, dengan fokus untuk menyederhanakan proses administrasi pembayaran SPP, memberikan kemudahan dalam mengelola data siswa, serta memberikan opsi pencetakan kartu SPP secara langsung.",
                     "final": "Sebagai pengembang kami telah berhasil mengembangkan sistem manajemen kartu SPP yang efisien bagi pihak sekolah. Mereka dapat dengan mudah mengelola data siswa, mengisi formulir pembayaran SPP, dan mencetak kartu SPP secara langsung. Sistem yang mudah digunakan memastikan efisiensi dalam proses administrasi sehingga dapat membantu sekolah dalam meningkatkan efisiensi administrasi pembayaran SPP dan memberikan pengalaman yang lebih baik bagi pihak sekolah."
                 },
                 "en": {
                     "summary": "SPP Card Management System.",
                     "contribution": "Fulll stack developer",
                     "technology": "HTML, CSS, JS, PHP",
-                    "objective": "Developing a tuition card management system for MA/SMA schools, with a focus on simplifying the administration process of tuition payments, providing convenience in managing student data, as well as providing the option of printing tuition cards directly.",
+                    "focus": "Developing a tuition card management system for MA/SMA schools, with a focus on simplifying the administration process of tuition payments, providing convenience in managing student data, as well as providing the option of printing tuition cards directly.",
                     "final": "As developers, we have successfully developed an efficient SPP card management system for schools. They can easily manage student data, fill out SPP payment forms, and print SPP cards directly. The easy-to-use system ensures efficiency in the administration process so that it can help schools in improving the efficiency of SPP payment administration and provide a better experience for the school."
                 }
             }
@@ -235,14 +235,14 @@
                     "summary": "Website Katalog Produk Supplier.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "objective": "Menciptakan sebuah situs web katalog produk bagi supplier yang berfokus pada kegiatan impor dan ekspor produk dari Indonesia dan China. Fokus utama proyek ini adalah memberikan platform yang efisien dan informatif bagi supplier untuk memamerkan berbagai produk yang dapat ditawarkan kepada perusahaan lokal dan internasional.",
+                    "focus": "Menciptakan sebuah situs web katalog produk bagi supplier yang berfokus pada kegiatan impor dan ekspor produk dari Indonesia dan China. Fokus utama proyek ini adalah memberikan platform yang efisien dan informatif bagi supplier untuk memamerkan berbagai produk yang dapat ditawarkan kepada perusahaan lokal dan internasional.",
                     "final": "Sebagai pengembang kami berhasil menciptakan situs web katalog produk yang memberikan informasi lengkap mengenai produk-produk yang dapat disuplai oleh supplier. Halaman depan telah dibuat untuk memudahkan pengunjung menavigasi dan menjelajahi berbagai kategori produk yang ditawarkan. Halaman detail produk memberikan deskripsi rinci dan informasi kontak supplier, sehingga perusahaan dapat dengan mudah menghubungi dan menjalin kerjasama dengan perusahaan ini."
                 },
                 "en": {
                     "summary": "Supplier Product Catalog Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "objective": "Create a product catalog website for suppliers that focuses on importing and exporting products from Indonesia and China. The main focus of this project is to provide an efficient and informative platform for suppliers to showcase a variety of products that can be offered to local and international companies.",
+                    "focus": "Create a product catalog website for suppliers that focuses on importing and exporting products from Indonesia and China. The main focus of this project is to provide an efficient and informative platform for suppliers to showcase a variety of products that can be offered to local and international companies.",
                     "final": "As developers, we managed to create a product catalog website that provides complete information about the products that suppliers can supply. The front page has been created to make it easy for visitors to navigate and explore the various product categories on offer. The product detail page provides detailed descriptions and contact information of the supplier, so that companies can easily contact and establish cooperation with this company."
                 }
             }
@@ -257,14 +257,14 @@
                     "summary": "Website Penjualan Produk Kelapa.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor, Woocommerce",
-                    "objective": "Menciptakan sebuah situs web yang menjadi platform penjualan produk kelapa, baik untuk pasar lokal maupun ekspor. Fokus utama adalah memfasilitasi penjualan produk kelapa melalui platform online yang mudah diakses dan informatif.",
+                    "focus": "Menciptakan sebuah situs web yang menjadi platform penjualan produk kelapa, baik untuk pasar lokal maupun ekspor. Fokus utama adalah memfasilitasi penjualan produk kelapa melalui platform online yang mudah diakses dan informatif.",
                     "final": "Kami sebagai pengembang situs web ini telah berhasil menciptakan saluran penjualan yang efektif untuk produk kelapa melalu tampilan yang mudah dipahami, seperti halaman utama yang menampilkan berbagai produk kelapa dengan atraktif, menyajikan informasi yang penting bagi pembeli lokal dan calon pembeli ekspor. Dengan situs web ini, diharapkan dapat meningkatkan visibilitas produk kelapa dan mendukung kegiatan penjualan, baik di tingkat lokal maupun ekspor."
                 },
                 "en": {
                     "summary": "Coconut Product Sales Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor, Woocommerce",
-                    "objective": "Created a website that serves as a sales platform for coconut products, both for local and export markets. The main focus is to facilitate the sale of coconut products through an easily accessible and informative online platform.",
+                    "focus": "Created a website that serves as a sales platform for coconut products, both for local and export markets. The main focus is to facilitate the sale of coconut products through an easily accessible and informative online platform.",
                     "final": "We as the developers of this website have succeeded in creating an effective sales channel for coconut products through easy-to-understand interfaces, such as the main page that displays a variety of coconut products attractively, presenting information that is important for local buyers and potential export buyers. The website is expected to increase the visibility of coconut products and support sales activities, both at the local and export levels."
                 }
             }
@@ -279,14 +279,14 @@
                     "summary": "Tempat Menawarkan Jasa Mahasiswa.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor, Woocommerce",
-                    "objective": "Menciptakan sebuah situs web yang berfungsi sebagai platform marketplace, di mana para mahasiswa dapat menawarkan jasa mereka. Fokusnya website ini adalah memberikan wadah yang efisien bagi mahasiswa untuk memasarkan keahlian dan layanan mereka kepada pengguna lain di dalam komunitas kampus.",
+                    "focus": "Menciptakan sebuah situs web yang berfungsi sebagai platform marketplace, di mana para mahasiswa dapat menawarkan jasa mereka. Fokusnya website ini adalah memberikan wadah yang efisien bagi mahasiswa untuk memasarkan keahlian dan layanan mereka kepada pengguna lain di dalam komunitas kampus.",
                     "final": "Sebagai pengembang website ini kami berhasil membuat sebuah ruang virtual bagi mahasiswa untuk mempromosikan dan menawarkan jasa mereka. Halaman utama dirancang untuk mempermudah navigasi dan menampilkan berbagai kategori jasa yang ditawarkan oleh mahasiswa. Kami juga membuat halaman profil mahasiswa menampilkan portofolio dan ulasan jasa mereka serta sistem pemesanan bagi calon pengguna jasa mereka. Dengan situs web ini, diharapkan mahasiswa dapat dengan mudah menawarkan dan menemukan jasa yang mereka butuhkan dalam lingkungan kampus."
                 },
                 "en": {
                     "summary": "Student Services Marketplace.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor, Woocommerce",
-                    "objective": "Created a website that serves as a marketplace platform, where students can offer their services. The focus of this website is to provide an efficient platform for students to market their skills and services to other users within the campus community.",
+                    "focus": "Created a website that serves as a marketplace platform, where students can offer their services. The focus of this website is to provide an efficient platform for students to market their skills and services to other users within the campus community.",
                     "final": "As the developers of this website we managed to create a virtual space for students to promote and offer their services. The main page was designed to make navigation easy and display the various categories of services offered by students. We also created a student profile page displaying their portfolio and service reviews as well as a booking system for potential users of their services. With this website, it is expected that students can easily offer and find the services they need within the campus environment."
                 }
             }
@@ -301,14 +301,14 @@
                     "summary": "Website Layanan Perundangan.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor, Woocommerce",
-                    "objective": "Menciptakan sebuah situs web yang akan berfungsi sebagai platform representatif bagi jasa perundangan untuk layanan yang diberikan oleh notaris. Fokusnya adalah memberikan kejelasan mengenai layanan perundangan yang ditawarkan, termasuk proses perizinan dan informasi hukum lainnya.",
+                    "focus": "Menciptakan sebuah situs web yang akan berfungsi sebagai platform representatif bagi jasa perundangan untuk layanan yang diberikan oleh notaris. Fokusnya adalah memberikan kejelasan mengenai layanan perundangan yang ditawarkan, termasuk proses perizinan dan informasi hukum lainnya.",
                     "final": "Kami sebagai pengembang website ini berhasil membuat sebuah situs web yang memberikan gambaran menyeluruh tentang jasa perundangan, seperti Home page dibuat dengan ringkasan singkat mengenai layanan utama yang ditawarkan. Halaman tambahan, termasuk informasi lebih lanjut mengenai proses perizinan dan aspek hukum, dibuat dengan sederhana namun informatif. Website ini diharapkan memberikan kemudahan bagi klien untuk memahami dan mengakses informasi perundangan yang mereka perlukan."
                 },
                 "en": {
                     "summary": "Licensing Services Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor, Woocommerce",
-                    "objective": "Create a website that will serve as a representative platform for regulatory services for services provided by notaries. The focus is on providing clarity on the regulatory services offered, including the licensing process and other legal information.",
+                    "focus": "Create a website that will serve as a representative platform for regulatory services for services provided by notaries. The focus is on providing clarity on the regulatory services offered, including the licensing process and other legal information.",
                     "final": "We as the developers of this website managed to create a website that provides a comprehensive overview of the regulatory services, such as a Home page created with a brief summary of the main services offered. Additional pages, including further information on the licensing process and legal aspects, were kept simple yet informative. The website is expected to make it easy for clients to understand and access the regulatory information they need."
                 }
             }
@@ -323,12 +323,12 @@
                     "summary": "Freelance Agency Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "objective": "Menciptakan sebuah situs web WordPress untuk agensi IT berbasis freelance. Fokus utama yang diinginkan adalah menyediakan platform informasi online yang mencerminkan layanan yang ditawarkan oleh agensi ini, mencakup konsultasi teknologi, pembuatan aplikasi mobile, pengembangan website, dan pencarian tenaga kerja IT yang berkualitas.",
+                    "focus": "Menciptakan sebuah situs web WordPress untuk agensi IT berbasis freelance. Fokus utama yang diinginkan adalah menyediakan platform informasi online yang mencerminkan layanan yang ditawarkan oleh agensi ini, mencakup konsultasi teknologi, pembuatan aplikasi mobile, pengembangan website, dan pencarian tenaga kerja IT yang berkualitas.",
                     "final": "Kami sebagai pengembang situs web untuk agensi ini telah berhasil membuat situs web yang memberikan gambaran yang padat tentang layanan yang ditawarkan dalam setiap halaman website ini. Home page dirancang dengan menarik, menyajikan semua layanan utama secara singkat. Halaman tambahan seperti informasi layanan dan tentang agensi ini dibuat sederhana namun informatif, memudahkan klien untuk memahami jasa dan perusahaan ini."
                 },
                 "en": {
                     "summary": "Freelance Agency Website.",
-                    "objective": "Created a WordPress website for a freelance-based IT agency. The main desired focus was to provide an online information platform that reflects the services offered by the agency, including technology consulting, mobile app development, website development, and sourcing qualified IT labor.",
+                    "focus": "Created a WordPress website for a freelance-based IT agency. The main desired focus was to provide an online information platform that reflects the services offered by the agency, including technology consulting, mobile app development, website development, and sourcing qualified IT labor.",
                     "technology": "PHP, Wordpress, Elementor",
                     "final": "We as website developers for this agency have managed to create a website that gives a solid overview of the services offered in every page of this website. The home page is attractively designed, presenting all the main services in a concise manner. Additional pages such as service information and about the agency are simple yet informative, making it easy for clients to understand the services and the company."
                 }
@@ -344,14 +344,14 @@
                     "summary": "Tema Blogger.",
                     "contribution": "Creator",
                     "technology": "XML, HTML, JS, VueJs",
-                    "objective": "Menciptakan kerangka kerja untuk menyederhanakan dan meningkatkan proses pengembangan website di Blogger yang sebelumnya terbatas, terutama dalam hal tampilan yang terbatas pada sintaks XML Blogger. Integrasi Vue.js dilakukan untuk memberikan fleksibilitas kepada pengembang, memungkinkan mereka memaksimalkan tampilan dan fungsionalitas website dengan cara yang lebih dinamis.",
+                    "focus": "Menciptakan kerangka kerja untuk menyederhanakan dan meningkatkan proses pengembangan website di Blogger yang sebelumnya terbatas, terutama dalam hal tampilan yang terbatas pada sintaks XML Blogger. Integrasi Vue.js dilakukan untuk memberikan fleksibilitas kepada pengembang, memungkinkan mereka memaksimalkan tampilan dan fungsionalitas website dengan cara yang lebih dinamis.",
                     "final": "Hasil akhir dari proyek ini adalah memberikan alternatif yang terjangkau dan efektif bagi pengembang website. Dengan templat ini, pengembang dapat memanfaatkan Blogger sebagai opsi lain selain CMS berbasis hosting yang biasanya lebih mahal. Template ini telah mendukung tampilan untuk beranda, halaman, posting tunggal, dan posting ganda. Pengembangan lebih lanjut diharapkan dapat menghasilkan ide-ide menarik, memungkinkan pengembang membuat tampilan per bagian tanpa kendala dari pembatasan dalam satu file, seperti pada Blogger XML."
                 },
                 "en": {
                     "summary": "Blogger Template.",
                     "contribution": "Creator",
                     "technology": "XML, HTML, JS, VueJs",
-                    "objective": "Creating a framework to simplify and improve the previously limited process of developing websites on Blogger, especially in terms of display which is limited to Blogger's XML syntax. The integration of Vue.js was done to provide flexibility to developers, allowing them to maximize the appearance and functionality of the website in a more dynamic way.",
+                    "focus": "Creating a framework to simplify and improve the previously limited process of developing websites on Blogger, especially in terms of display which is limited to Blogger's XML syntax. The integration of Vue.js was done to provide flexibility to developers, allowing them to maximize the appearance and functionality of the website in a more dynamic way.",
                     "final": "The end result of this project is to provide an affordable and effective alternative for website developers. With this template, developers can utilize Blogger as another option other than hosting-based CMS which are usually more expensive. This template has supported views for homepages, pages, single posts, and multiple posts. Further development is expected to come up with interesting ideas, allowing developers to create section-by-section views without the constraints of restriction in a single file, as with Blogger XML."
                 }
             }
@@ -366,14 +366,14 @@
                     "summary": "Rancangan UX aplikasi mobile.",
                     "contribution": "UX designer",
                     "technology": "Figma, Adobe Illustrator, Notion, Lark",
-                    "objective": "Menciptakan desain rancangan untuk pengalaman pengguna pada pengembangan Aplikasi Belajar Bahasa Korea-Indonesia yang dapat memberikan pengalaman akses aplikasi secara fleksibel, menarik, dan mudah kapan saja, di mana saja.",
+                    "focus": "Menciptakan desain rancangan untuk pengalaman pengguna pada pengembangan Aplikasi Belajar Bahasa Korea-Indonesia yang dapat memberikan pengalaman akses aplikasi secara fleksibel, menarik, dan mudah kapan saja, di mana saja.",
                     "final": "Kami sebagai Desainer UX dalam tim desain utama aplikasi ini khususnya pada versi mobile, telah berhasil merancang berbagai desain UX sebagai pendukung dalam pengembangannya. Hasil akhir tersebut mencakup User Flows yang memvisualisasikan alur pengguna selama interaksi dengan aplikasi, serta Wireframes sebagai konsep antarmuka aplikasi dengan tujuan menciptakan pengalaman pengguna yang lebih optimal dan memuaskan."
                 },
                 "en": {
                     "summary": "UX mobile app design.",
                     "contribution": "UX designer",
                     "technology": "Figma, Adobe Illustrator, Notion, Lark",
-                    "objective": "Creating a design for user experience in the development of Korean-Indonesian Language Learning Application that can provide a flexible, attractive, and easy application access experience anytime, anywhere.",
+                    "focus": "Creating a design for user experience in the development of Korean-Indonesian Language Learning Application that can provide a flexible, attractive, and easy application access experience anytime, anywhere.",
                     "final": "We as UX Designers in the main design team of this application, especially in the mobile version, have successfully designed various UX designs as support in its development. The final results include User Flows that visualize the user flow during interaction with the application, as well as Wireframes as an application interface concept with the aim of creating a more optimal and satisfying user experience."
                 }
             }
@@ -388,14 +388,14 @@
                     "summary": "Gaya Penulisan Sitiran Microsoft Word.",
                     "contribution": "Creator",
                     "technology": "XML",
-                    "objective": "Memciptakan Microsoft Word style citation khusus yang dirancang untuk membantu mahasiswa, terutama mahasiswa di Fakultas Hukum, Universitas Islam Negeri Maulana Malik Ibrahim Malang. Pengembangan ini akan menghadirkan alat sitiran yang sesuai dengan pedoman fakultas secara mudah dan cepat, tanpa harus menginstal aplikasi pihak ketiga.",
+                    "focus": "Memciptakan Microsoft Word style citation khusus yang dirancang untuk membantu mahasiswa, terutama mahasiswa di Fakultas Hukum, Universitas Islam Negeri Maulana Malik Ibrahim Malang. Pengembangan ini akan menghadirkan alat sitiran yang sesuai dengan pedoman fakultas secara mudah dan cepat, tanpa harus menginstal aplikasi pihak ketiga.",
                     "final": "Kami sebagai pengembang Microsoft Word style citation ini, kami telah merancang agar style citation ini dapat menerima berbagai referensi dalam penulisan jurnal dan skripsi, seperti buku, jurnal, wawancara, dan peraturan perundang-undangan. Fitur tambahan lainnya mencakup penulisan catatan kaki ganda/ibid, penyesuaian penulisan catatan kaki untuk menghindari kesalahan dalam pemeriksaan plagiarisme, dan penyusunan daftar pustaka otomatis yang terkategori berdasarkan jenis referensi."
                 },
                 "en": {
                     "summary": "Microsoft Word-style Citation.",
                     "contribution": "Creator",
                     "technology": "XML",
-                    "objective": "Created a special Microsoft Word citation style designed to help students, especially students at the Faculty of Law, Maulana Malik Ibrahim State Islamic University Malang. This development will present a citation tool that complies with faculty guidelines easily and quickly, without having to install third-party applications.",
+                    "focus": "Created a special Microsoft Word citation style designed to help students, especially students at the Faculty of Law, Maulana Malik Ibrahim State Islamic University Malang. This development will present a citation tool that complies with faculty guidelines easily and quickly, without having to install third-party applications.",
                     "final": "As the developer of this Microsoft Word citation style, we have designed this citation style to accept various references in journal and thesis writing, such as books, journals, interviews, and laws and regulations. Other additional features include double footnote/ibid writing, customization of footnote writing to avoid errors in plagiarism checks, and automatic bibliography creation categorized by reference type."
                 }
             }

@@ -17,7 +17,7 @@
             <transition name="fade">
                 <header v-if="!loading">
                     <h1>Muhammad Yunus Khoiruddin</h1>
-                    <h3>Freelancer from Bali</h3>
+                    <h3>{{job[lang]}}</h3>
                 </header>
             </transition>
             <router-view v-slot="{ Component, route }">
@@ -29,7 +29,7 @@
             </router-view>
             <transition name="fade">
                 <footer v-if="!loading">
-                    <a @click="switchLang" class="lang">{{upper(lang)}}</a> | &copy; 2017-2023
+                    <a @click="switchLang" class="lang">{{lang=='en'?'Language':'Bahasa'}}: {{lang=='en'?'English':'Indonesian'}}</a> | &copy; 2017-2023
                 </footer>
             </transition>
         </template>
@@ -61,15 +61,15 @@
             <router-link :to="{name:'home'}">Back</router-link>
             <section id="detail" v-if="item">
                 <h1 style="line-height: 1;">{{item.name}}</h1>
-                <p>{{item.period}} | {{info.summary}}</p>
-                <b>Project Objective:</b>
-                <p>{{info.objective}}</p>
+                <p>{{item.period}} | {{item.info[lang].summary}}</p>
                 <b>Contribution:</b>
-                <p>{{info.contribution}}</p>
+                <p>{{item.info[lang].contribution}}</p>
                 <b>Technology Used:</b>
-                <p>{{info.technology}}</p>
+                <p>{{item.info[lang].technology}}</p>
+                <b>Project Focus:</b>
+                <p>{{item.info[lang].focus}}</p>
                 <b>Final Outcome:</b>
-                <p>{{info.final}}</p>
+                <p>{{item.info[lang].final}}</p>
             </section>
         </template>
     </body>
