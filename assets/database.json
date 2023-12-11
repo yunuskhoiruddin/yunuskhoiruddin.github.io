@@ -2,7 +2,7 @@
     "skills": {
         "Programming languages": "HTML5, CSS3, ES6 (JavaScript), PHP, MYSQL, Python.",
         "Frameworks": "Laravel, Codeignaiter, VueJs, Bootstrap, WordPress.",
-        "Tools": "CLI, IDE (VSCode), VCS (Git), API Development (Postman), VPS (Digitalocean & BizGio), UI & Design (Figma & AI)."
+        "Tools": "CLI, IDE (VSCode), VCS (Git), API Development (Postman), VPS (Digitalocean & BizGio), UI/UX & Design (Figma & AI)."
     },
     "experience": [
         {
@@ -24,6 +24,28 @@
                     "technology": "HTML, CSS, JS, VueJs, AxiosJs, Blogger",
                     "focus": "Developed a Mosque Information Website that provides a blog for information on mosque activities, details of mosque facilities and services, as well as important information for worshipers regarding mosque construction. The main focus is to provide a comprehensive and easily accessible source of information for the mosque community.",
                     "final": "We as developers have successfully created an informative and interactive Mosque Information Website. The mosque activities blog provides an in-depth insight into the activities of the community. Details of mosque facilities and services provide clear information to visitors. In addition, information about the construction of the mosque provides greater awareness and participation from the congregation."
+                }
+            }
+        },
+        {
+            "category": "web-dev",
+            "slug": "sesirkel-id",
+            "name": "Sesirkel.id",
+            "period": 2023,
+            "info": {
+                "id": {
+                    "summary": "Sistem Pengeloaan Langganan.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, Laravel, Fonnte Whatsapp API, DuitKu API",
+                    "focus": "Mengembangkan sistem pengelolaan langganan untuk bisnis yang menyediakan layanan manajemen akun berbayar secara bersama-sama atau patungan untuk berbagai platform seperti YouTube, Spotify, dan lainnya. Fokus utamanya adalah menciptakan sistem pengelolaan yang terstruktur dengan baik.",
+                    "final": "Sebagai pengembang, kami berhasil menciptakan sistem pengelolaan langganan yang efisien untuk bisnis ini. Sistem ini menyediakan kemudahan pembayaran, dengan pengingat perpanjangan otomatis untuk memastikan kelancaran langganan. Fitur pengelompokan anggota kelompok langganan dirancang agar terstruktur dengan baik, memudahkan manajemen dan komunikasi. Sehingga memberikan kemudahan proses pembayaran, pengelolaan langganan yang lancar, serta organisasi yang baik dalam pengelompokan anggota langganan."
+                },
+                "en": {
+                    "summary": "Subscription Management System.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, Laravel, Fonnte Whatsapp API, DuitKu API",
+                    "focus": "Developed a subscription management system for businesses that provide paid account management services jointly or jointly for various platforms such as YouTube, Spotify, and others. The main focus was to create a well-structured management system.",
+                    "final": "As developers, we managed to create an efficient subscription management system for this business. The system provides ease of payment, with automatic renewal reminders to ensure smooth subscriptions. The grouping feature of subscription group members is designed to be well-structured, making management and communication easy. It provides easy payment processing, smooth subscription management, and good organization in the grouping of subscription members."
                 }
             }
         },
@@ -51,6 +73,28 @@
         },
         {
             "category": "web-dev",
+            "slug": "qurban-lite",
+            "name": "Qurbanlite",
+            "period": 2023,
+            "info": {
+                "id": {
+                    "summary": "Sistem Distribusi Daging Qurban.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP, CodeIgnaiter4",
+                    "focus": "Mengembangkan sistem distribusi daging qurban yang akan dapat  mengatur daftar penerima, mengelola kupon, dan membuat laporan akhir kegiatan. Fokus utamanya adalah memudahkan distribusi daging qurban, menjaga transparansi, dan menyederhanakan administrasi kegiatan ini.",
+                    "final": "Sebagai pengembang, kami berhasil menciptakan sistem distribusi daging qurban yang terstruktur. Sistem ini membantu mengorganisir daftar penerima daging qurban berdasarkan wilayah, mengelola kupon kurban dengan efisien, melakukan verifikasi saat penerima mengambil daging qurban, dan fitur pembuatan laporan akhir kegiatan yang otomatis. Sistem ini memberikan gambaran lengkap mengenai distribusi daging qurban bagi panitia kegiatan."
+                },
+                "en": {
+                    "summary": "Qurban Meat Distribution System.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "HTML, CSS, JS, PHP, CodeIgnaiter4",
+                    "focus": "Develop a qurban meat distribution system that will be able to organize the list of recipients, manage coupons, and create a final report of the activity. The main focus is to facilitate qurbani meat distribution, maintain transparency, and simplify the administration of this activity.",
+                    "final": "As developers, we managed to create a structured qurbani meat distribution system. This system helps organize the list of qurbani meat recipients by region, manage qurbani coupons efficiently, verify when the recipients pick up the qurbani meat, and an automatic end-of-activity report generation feature. This system provides a complete overview of qurbani meat distribution for the event committee."
+                }
+            }
+        },
+        {
+            "category": "web-dev",
             "slug": "gen-class",
             "name": "GEN Marketing Class",
             "period": 2023,
@@ -68,6 +112,50 @@
                     "technology": "HTML, CSS, JS, PHP, Laravel, CodeIgnaiter4, Bootstrap",
                     "focus": "Developing an Online Learning Platform that explores marketing and sales knowledge through online media. This platform is committed to creating a learning environment that is open, diverse, and accessible to a wide range of members through digital media, such as courses and ebooks.",
                     "final": "As developers, we successfully created a system that handles video courses and ebooks. We also developed a flexible payment system for both paid and free content, providing optimal flexibility in the learning process."
+                }
+            }
+        },
+        {
+            "category": "web-dev",
+            "slug": "sahamdaily",
+            "name": "Sahamdaily.com",
+            "period": 2022,
+            "info": {
+                "id": {
+                    "summary": "Sistem Pengeloaan Konten.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, Laravel, Wordpress, Fonnte Whatsapp API",
+                    "focus": "Mengembangkan sistem pengelolaan langganan konten, di mana sistem akan mengelola pelanggan yang membayar untuk mendapatkan pembaruan konten berkaitan dengan saham selama mereka berlangganan. Fokus utamanya adalah memberikan solusi efisien untuk pengelolaan pelanggan dan konten yang dikirimkan.",
+                    "final": "Sebagai pengembang, kami telah berhasil menciptakan sistem pengelolaan langganan konten yang efisien. Sistem ini memungkinkan pelanggan untuk berlangganan dan menerima pembaruan konten berkaitan dengan saham, dengan berbagai format seperti dokumen, artikel, atau audio. Dengan fitur pengelolaan pelanggan yang otomatis, sistem dapat memberikan konten yang sesuai dengan preferensi pelanggan secara langsung."
+                },
+                "en": {
+                    "summary": "Content Management System.",
+                    "contribution": "Back-end developer",
+                    "technology": "PHP, Laravel, Wordpress, Fonnte Whatsapp API",
+                    "focus": "Developed a content subscription management system, where the system will manage paying subscribers to get content updates related to stocks during their subscription. The main focus was to provide an efficient solution for the management of subscribers and delivered content.",
+                    "final": "As developers, we have successfully created an efficient content subscription management system. The system allows subscribers to subscribe and receive updates on stock-related content, with various formats such as documents, articles, or audio. With automated subscriber management features, the system can deliver content that matches subscribers' preferences directly."
+                }
+            }
+        },
+        {
+            "category": "web-dev",
+            "slug": "kontrak-freelancer",
+            "name": "Kontrak Freelancer",
+            "period": 2021,
+            "info": {
+                "id": {
+                    "summary": "Sistem Penulisan Kontrak Perusahaan.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, CodeIgnaiter4",
+                    "focus": "Mengembangkan sistem penulisan kontrak untuk perusahaan IT, yang mencakup pengelolaan database pekerja lepas, pengaturan tugas individu pekerja, dan otomatisasi pengelolaan kontrak pekerja. Fokus utamanya adalah memberikan solusi efisien untuk administrasi dan pengarsipan perusahaan dengan menyederhanakan proses penulisan dan pemeliharaan kontrak.",
+                    "final": "Sebagai pengembang, kami telah berhasil menciptakan sistem penulisan kontrak yang komprehensif untuk perusahaan IT. Pengelolaan database pekerja lepas memberikan kemudahan dalam melacak dan mengelola informasi pekerja dengan efisien. Dengan fitur pengaturan tugas individu, perusahaan dapat mendistribusikan tugas secara fleksibel kepada pekerja. Sistem ini dirancang untuk meningkatkan efisiensi administrasi dan manajemen pekerja lepas, memberikan solusi yang tangguh bagi kebutuhan kontrak perusahaan IT."
+                },
+                "en": {
+                    "summary": "Company Contract Drafting System.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, CodeIgnaiter4",
+                    "focus": "Developed a contract writing system for IT companies, which includes the management of freelancer databases, organization of individual worker tasks, and automation of worker contract management. The main focus is to provide efficient solutions for company administration and filing by simplifying the process of writing and maintaining contracts.",
+                    "final": "As a developer, we have successfully created a comprehensive contract writing system for IT companies. Freelance database management makes it easy to track and manage worker information efficiently. With the individual task setting feature, companies can flexibly distribute tasks to workers. The system is designed to improve the efficiency of freelance administration and management, providing a robust solution for IT companies' contracting needs."
                 }
             }
         },
@@ -116,97 +204,9 @@
             }
         },
         {
-            "category": "web-pro",
-            "slug": "sesirkel",
-            "name": "Sesirkel",
-            "period": 2023,
-            "info": {
-                "id": {
-                    "summary": "Sistem Pengeloaan Langganan.",
-                    "contribution": "Back-end developer",
-                    "technology": "PHP, Laravel, Fonnte Whatsapp API, DuitKu API",
-                    "focus": "Mengembangkan sistem pengelolaan langganan untuk bisnis yang menyediakan layanan manajemen akun berbayar secara bersama-sama atau patungan untuk berbagai platform seperti YouTube, Spotify, dan lainnya. Fokus utamanya adalah menciptakan sistem pengelolaan yang terstruktur dengan baik.",
-                    "final": "Sebagai pengembang, kami berhasil menciptakan sistem pengelolaan langganan yang efisien untuk bisnis ini. Sistem ini menyediakan kemudahan pembayaran, dengan pengingat perpanjangan otomatis untuk memastikan kelancaran langganan. Fitur pengelompokan anggota kelompok langganan dirancang agar terstruktur dengan baik, memudahkan manajemen dan komunikasi. Sehingga memberikan kemudahan proses pembayaran, pengelolaan langganan yang lancar, serta organisasi yang baik dalam pengelompokan anggota langganan."
-                },
-                "en": {
-                    "summary": "Subscription Management System.",
-                    "contribution": "Back-end developer",
-                    "technology": "PHP, Laravel, Fonnte Whatsapp API, DuitKu API",
-                    "focus": "Developed a subscription management system for businesses that provide paid account management services jointly or jointly for various platforms such as YouTube, Spotify, and others. The main focus was to create a well-structured management system.",
-                    "final": "As developers, we managed to create an efficient subscription management system for this business. The system provides ease of payment, with automatic renewal reminders to ensure smooth subscriptions. The grouping feature of subscription group members is designed to be well-structured, making management and communication easy. It provides easy payment processing, smooth subscription management, and good organization in the grouping of subscription members."
-                }
-            }
-        },
-        {
-            "category": "web-pro",
-            "slug": "qurban-lite",
-            "name": "Qurbanlite",
-            "period": 2023,
-            "info": {
-                "id": {
-                    "summary": "Sistem Distribusi Daging Qurban.",
-                    "contribution": "Fulll stack developer",
-                    "technology": "HTML, CSS, JS, PHP, CodeIgnaiter4",
-                    "focus": "Mengembangkan sistem distribusi daging qurban yang akan dapat  mengatur daftar penerima, mengelola kupon, dan membuat laporan akhir kegiatan. Fokus utamanya adalah memudahkan distribusi daging qurban, menjaga transparansi, dan menyederhanakan administrasi kegiatan ini.",
-                    "final": "Sebagai pengembang, kami berhasil menciptakan sistem distribusi daging qurban yang terstruktur. Sistem ini membantu mengorganisir daftar penerima daging qurban berdasarkan wilayah, mengelola kupon kurban dengan efisien, melakukan verifikasi saat penerima mengambil daging qurban, dan fitur pembuatan laporan akhir kegiatan yang otomatis. Sistem ini memberikan gambaran lengkap mengenai distribusi daging qurban bagi panitia kegiatan."
-                },
-                "en": {
-                    "summary": "Qurban Meat Distribution System.",
-                    "contribution": "Fulll stack developer",
-                    "technology": "HTML, CSS, JS, PHP, CodeIgnaiter4",
-                    "focus": "Develop a qurban meat distribution system that will be able to organize the list of recipients, manage coupons, and create a final report of the activity. The main focus is to facilitate qurbani meat distribution, maintain transparency, and simplify the administration of this activity.",
-                    "final": "As developers, we managed to create a structured qurbani meat distribution system. This system helps organize the list of qurbani meat recipients by region, manage qurbani coupons efficiently, verify when the recipients pick up the qurbani meat, and an automatic end-of-activity report generation feature. This system provides a complete overview of qurbani meat distribution for the event committee."
-                }
-            }
-        },
-        {
-            "category": "web-pro",
-            "slug": "sahamdaily",
-            "name": "Sahamdaily.com",
-            "period": 2022,
-            "info": {
-                "id": {
-                    "summary": "Sistem Pengeloaan Langganan Konten.",
-                    "contribution": "Back-end developer",
-                    "technology": "PHP, Laravel, Wordpress, Fonnte Whatsapp API",
-                    "focus": "Mengembangkan sistem pengelolaan langganan konten, di mana sistem akan mengelola pelanggan yang membayar untuk mendapatkan pembaruan konten berkaitan dengan saham selama mereka berlangganan. Fokus utamanya adalah memberikan solusi efisien untuk pengelolaan pelanggan dan konten yang dikirimkan.",
-                    "final": "Sebagai pengembang, kami telah berhasil menciptakan sistem pengelolaan langganan konten yang efisien. Sistem ini memungkinkan pelanggan untuk berlangganan dan menerima pembaruan konten berkaitan dengan saham, dengan berbagai format seperti dokumen, artikel, atau audio. Dengan fitur pengelolaan pelanggan yang otomatis, sistem dapat memberikan konten yang sesuai dengan preferensi pelanggan secara langsung."
-                },
-                "en": {
-                    "summary": "Subscription Content Management System.",
-                    "contribution": "Back-end developer",
-                    "technology": "PHP, Laravel, Wordpress, Fonnte Whatsapp API",
-                    "focus": "Developed a content subscription management system, where the system will manage paying subscribers to get content updates related to stocks during their subscription. The main focus was to provide an efficient solution for the management of subscribers and delivered content.",
-                    "final": "As developers, we have successfully created an efficient content subscription management system. The system allows subscribers to subscribe and receive updates on stock-related content, with various formats such as documents, articles, or audio. With automated subscriber management features, the system can deliver content that matches subscribers' preferences directly."
-                }
-            }
-        },
-        {
-            "category": "web-pro",
-            "slug": "kontrak-freelancer",
-            "name": "Kontrak Freelancer",
-            "period": 2021,
-            "info": {
-                "id": {
-                    "summary": "Sistem Penulisan Kontrak Perusahaan.",
-                    "contribution": "Fulll stack developer",
-                    "technology": "PHP, CodeIgnaiter4",
-                    "focus": "Mengembangkan sistem penulisan kontrak untuk perusahaan IT, yang mencakup pengelolaan database pekerja lepas, pengaturan tugas individu pekerja, dan otomatisasi pengelolaan kontrak pekerja. Fokus utamanya adalah memberikan solusi efisien untuk administrasi dan pengarsipan perusahaan dengan menyederhanakan proses penulisan dan pemeliharaan kontrak.",
-                    "final": "Sebagai pengembang, kami telah berhasil menciptakan sistem penulisan kontrak yang komprehensif untuk perusahaan IT. Pengelolaan database pekerja lepas memberikan kemudahan dalam melacak dan mengelola informasi pekerja dengan efisien. Dengan fitur pengaturan tugas individu, perusahaan dapat mendistribusikan tugas secara fleksibel kepada pekerja. Sistem ini dirancang untuk meningkatkan efisiensi administrasi dan manajemen pekerja lepas, memberikan solusi yang tangguh bagi kebutuhan kontrak perusahaan IT."
-                },
-                "en": {
-                    "summary": "Company Contract Drafting System.",
-                    "contribution": "Fulll stack developer",
-                    "technology": "PHP, CodeIgnaiter4",
-                    "focus": "Developed a contract writing system for IT companies, which includes the management of freelancer databases, organization of individual worker tasks, and automation of worker contract management. The main focus is to provide efficient solutions for company administration and filing by simplifying the process of writing and maintaining contracts.",
-                    "final": "As a developer, we have successfully created a comprehensive contract writing system for IT companies. Freelance database management makes it easy to track and manage worker information efficiently. With the individual task setting feature, companies can flexibly distribute tasks to workers. The system is designed to improve the efficiency of freelance administration and management, providing a robust solution for IT companies' contracting needs."
-                }
-            }
-        },
-        {
-            "category": "web-pro",
-            "slug": "spp-man-negara",
-            "name": "SPP MAN Negara",
+            "category": "web-dev",
+            "slug": "sppCMS-man-negara",
+            "name": "SPPCMS MAN Negara",
             "period": 2017,
             "info": {
                 "id": {

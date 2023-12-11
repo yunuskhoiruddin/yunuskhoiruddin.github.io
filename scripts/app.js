@@ -1,6 +1,5 @@
 const listCategories = {
     'web-dev': 'Web Developer',
-    'web-pro': 'Web Programmer',
     'wp-dev': 'Wordpress Developer',
     'other': 'Other'
 }
@@ -38,7 +37,7 @@ const routes = [
                 this.skills = this.db.skills;
                 this.items = this.db.experience;
                 this.$emit('loadoff');
-                setTimeout(() => window.scrollTo(scrollPosition.x, scrollPosition.y), 1);
+                setTimeout(() => window.scrollTo(scrollPosition.x, scrollPosition.y), 100);
                 return true;
             },
             methods: {
@@ -76,7 +75,7 @@ const routes = [
                 return true;
             },
             mounted() {
-                window.scrollTo(0, 0);
+                setTimeout( () => window.scrollTo(0, 0), 100);
             },
             template: '#detail',
         },
@@ -98,8 +97,8 @@ const app = Vue.createApp({
         loading: true,
         lang: localStorage.getItem('lang') || 'en',
         job: {
-            "id": "Pekerja Lepas asal Bali",
-            "en": "Freelancers from Bali"
+            "id": "Web Developer asal Bali",
+            "en": "Web Developer from Bali"
         }
     }},
     methods: {

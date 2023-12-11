@@ -5,6 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Muhammad Yunus Khoiruddin</title>
+        <meta name="description" content="Web Developer from Bali">
+        <meta property="og:title" content="Muhammad Yunus Khoiruddin">
+        <meta property="og:description" content="Web Developer from Bali">
+        <meta property="og:image" content="https://yunuskhoiruddin.github.io/assets/thumbnail.jpg">
+        <meta property="og:url" content="https://yunuskhoiruddin.github.io/">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/scripts/style.css">
         <script src="/scripts/vue.global.js" defer></script>
@@ -29,20 +34,23 @@
             </router-view>
             <transition name="fade">
                 <footer v-if="!loading">
+                    Email: <a href="mailto:m.yunuskhoiruddin@gmail.com" target="_blank">m.yunuskhoiruddin@gmail.com</a> |
+                    <a href="https://linkedin.com/in/muhammad-yunus-khoiruddin" target="_blank">Linkedin</a>
+                    <br>
                     <a @click="switchLang" class="lang">{{lang=='en'?'Language':'Bahasa'}}: {{lang=='en'?'English':'Indonesian'}}</a> | &copy; 2017-2023
                 </footer>
             </transition>
         </template>
         <template id="home">
             <section id="skills">
-                <h2>Skills</h2>
+                <h2>{{lang=='en'?'Skills':'Keterampilan'}}</h2>
                 <article v-for="(text, title) in skills" :key="title">
                     <h3>{{title}}</h3>
                     <p>{{text}}</p>
                 </article>
             </section>
             <section id="experience">
-                <h2>Experience</h2>
+                <h2>{{lang=='en'?'Experience':'Pengalaman'}}</h2>
                 <article v-for="(category ,key) in categories" :key="key">
                     <h3>{{category}}:</h3>
                     <div>
