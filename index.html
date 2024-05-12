@@ -17,6 +17,7 @@
         <script src="/scripts/app.js" defer></script>
     </head>
     <body>
+        <div id="sticky-title"></div>
         <div id="app"></div>
         <template id="app-view">
             <transition name="fade">
@@ -37,7 +38,7 @@
                     Email: <a href="mailto:m.yunuskhoiruddin@gmail.com" target="_blank">m.yunuskhoiruddin@gmail.com</a> |
                     <a href="https://linkedin.com/in/muhammad-yunus-khoiruddin" target="_blank">Linkedin</a>
                     <br>
-                    <a @click="switchLang" class="lang">{{lang=='en'?'Language':'Bahasa'}}: {{lang=='en'?'English':'Indonesian'}}</a> | &copy; 2017-2023
+                    <a @click="switchLang" class="lang">{{lang=='en'?'Language':'Bahasa'}}: {{lang=='en'?'English':'Indonesian'}}</a> | &copy; 2017-2024
                 </footer>
             </transition>
         </template>
@@ -52,11 +53,12 @@
             <section id="experience">
                 <h2>{{lang=='en'?'Experience':'Pengalaman'}}</h2>
                 <article v-for="(category ,key) in categories" :key="key">
-                    <h3>{{category}}:</h3>
+                    <h3 class="category">{{category}}:</h3>
                     <div>
                         <router-link v-for="item in filterCategory(items, key)"
                             :to="{name:'detail',params:{slug:item.slug}}"
                             :id="'proj-'+item.slug">
+                            <div v-if="category != 'Other'" class="thumbnail" :style="{ backgroundImage: 'url(/assets/' + (item.name[0] == '*' ? 'placeholder.jpg' : 'projects/' + item.slug + '.png') + ')' }"></div>
                             <b>{{item.name}}</b><br>
                             {{item.info[lang].summary}}<br>
                             {{item.period}}

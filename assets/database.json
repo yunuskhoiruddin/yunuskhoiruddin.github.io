@@ -1,10 +1,54 @@
 {
     "skills": {
         "Programming languages": "HTML5, CSS3, ES6 (JavaScript), PHP, MYSQL, Python.",
-        "Frameworks": "Laravel, Codeignaiter, VueJs, Bootstrap, WordPress.",
+        "Frameworks": "Laravel, Codeignaiter, VueJS, AlpineJS, Bootstrap, WordPress.",
         "Tools": "CLI, IDE (VSCode), VCS (Git), API Development (Postman), VPS (Digitalocean & BizGio), UI/UX & Design (Figma & AI)."
     },
     "experience": [
+        {
+            "category": "web-dev",
+            "slug": "manajemen-Kuesioner",
+            "name": "*Manajemen Kuesioner",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Sistem Pengelolaan Kuesioner",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, Laravel, AlpineJS, Bootstrap",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Questionnaire Management System",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, Laravel, AlpineJS, Bootstrap",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "web-dev",
+            "slug": "kopmansaja",
+            "name": "*KOPMANSAJA",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Sistem Pengelolaan Penjualan",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, Laravel, AlpineJS, Bootstrap",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Sales Management System",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, Laravel, AlpineJS, Bootstrap",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
         {
             "category": "web-dev",
             "slug": "masjid-raya",
@@ -14,14 +58,14 @@
                 "id": {
                     "summary": "Website Informasi Masjid",
                     "contribution": "Front-end developer",
-                    "technology": "HTML, CSS, JS, VueJs, AxiosJs, Blogger",
+                    "technology": "HTML, CSS, JS, VueJS, AxiosJs, Blogger",
                     "focus": "Mengembangkan Website Informasi Masjid yang menyediakan blog untuk informasi kegiatan masjid, rincian fasilitas dan layanan masjid, serta informasi penting untuk jamaah terkait pembangunan masjid. Fokus utamanya adalah memberikan sumber informasi yang komprehensif dan mudah diakses bagi komunitas masjid.",
                     "final": "Kami sebagai pengembang telah berhasil menciptakan Website Informasi Masjid yang informatif dan interaktif. Blog kegiatan masjid memberikan wawasan mendalam tentang aktivitas komunitas. Rincian fasilitas dan layanan masjid memberikan informasi yang jelas kepada pengunjung. Selain itu, informasi tentang pembangunan masjid memberikan kesadaran dan partisipasi yang lebih besar dari jamaah."
                 },
                 "en": {
                     "summary": "Mosque Information Website.",
                     "contribution": "Front-end developer",
-                    "technology": "HTML, CSS, JS, VueJs, AxiosJs, Blogger",
+                    "technology": "HTML, CSS, JS, VueJS, AxiosJs, Blogger",
                     "focus": "Developed a Mosque Information Website that provides a blog for information on mosque activities, details of mosque facilities and services, as well as important information for worshipers regarding mosque construction. The main focus is to provide a comprehensive and easily accessible source of information for the mosque community.",
                     "final": "We as developers have successfully created an informative and interactive Mosque Information Website. The mosque activities blog provides an in-depth insight into the activities of the community. Details of mosque facilities and services provide clear information to visitors. In addition, information about the construction of the mosque provides greater awareness and participation from the congregation."
                 }
@@ -162,7 +206,7 @@
         {
             "category": "web-dev",
             "slug": "lms-sdm-mojorejo-2",
-            "name": "LMS SDN Mojorejo 2",
+            "name": "*LMS SDN Mojorejo 2",
             "period": 2021,
             "info": {
                 "id": {
@@ -205,8 +249,8 @@
         },
         {
             "category": "web-dev",
-            "slug": "sppCMS-man-negara",
-            "name": "SPPCMS MAN Negara",
+            "slug": "sppcms-man-negara",
+            "name": "*SPPCMS MAN Negara",
             "period": 2017,
             "info": {
                 "id": {
@@ -225,9 +269,230 @@
                 }
             }
         },
+
         {
             "category": "wp-dev",
-            "slug": "ubooster",
+            "slug": "bkd-trenggalek-kab-go-id",
+            "name": "Bkd.Trenggalekkab.go.id",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Lembaga Pemerintahan.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Government Institution Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "edusocinsight",
+            "name": "Edusocinsight.com",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Berita.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "News Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "pariwisatasumatera",
+            "name": "Pariwisatasumatera.com",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Pariwisata Domestik.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Domestic Tourism Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "uspeakedukasi-com",
+            "name": "Uspeakedukasi.com",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Kursus Bahasa Inggris.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "English Course Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "the-spiri-to-fbahasa-my-id",
+            "name": "Thespiritofbahasa.my.id",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Kursus Bahasa.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Language Course Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "digitalpowerindonesia-com",
+            "name": "Digitalpowerindonesia.com",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Agensi Pemasaran.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Marketing Agency Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "stargazediecast-com",
+            "name": "Stargazediecast.com",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Penjualan Die-cast.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Die-cast E-Commerce Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "tananimaciracas-com",
+            "name": "Tananimaciracas.com",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Properti Rumah.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Home Property Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "jaya-food-bali-com",
+            "name": "Jayafoodbali.com",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Katalog Produk.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Product Catalog Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "smpn-3-tulungagung-sch-id",
+            "name": "Smpn3tulungagung.sch.id",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Sekolah.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "School Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "PHP, Wordpress, Elementor",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "wp-dev",
+            "slug": "ubooster-co-id",
             "name": "Ubooster.co.id",
             "period": 2021,
             "info": {
@@ -249,7 +514,7 @@
         },
         {
             "category": "wp-dev",
-            "slug": "aladijayacoco",
+            "slug": "aladijayacoco-com",
             "name": "Aladijayacoco.com",
             "period": 2021,
             "info": {
@@ -315,7 +580,7 @@
         },
         {
             "category": "wp-dev",
-            "slug": "namatech-xyz",
+            "slug": "namatech-xyz-xyz",
             "name": "Namatech.xyz",
             "period": 2021,
             "info": {
@@ -337,20 +602,20 @@
         {
             "category": "other",
             "slug": "vue-on-blogger",
-            "name": "VueJs on Blogger",
+            "name": "VueJS on Blogger",
             "period": 2023,
             "info": {
                 "id": {
                     "summary": "Tema Blogger.",
                     "contribution": "Creator",
-                    "technology": "XML, HTML, JS, VueJs",
+                    "technology": "XML, HTML, JS, VueJS",
                     "focus": "Menciptakan kerangka kerja untuk menyederhanakan dan meningkatkan proses pengembangan website di Blogger yang sebelumnya terbatas, terutama dalam hal tampilan yang terbatas pada sintaks XML Blogger. Integrasi Vue.js dilakukan untuk memberikan fleksibilitas kepada pengembang, memungkinkan mereka memaksimalkan tampilan dan fungsionalitas website dengan cara yang lebih dinamis.",
                     "final": "Hasil akhir dari proyek ini adalah memberikan alternatif yang terjangkau dan efektif bagi pengembang website. Dengan templat ini, pengembang dapat memanfaatkan Blogger sebagai opsi lain selain CMS berbasis hosting yang biasanya lebih mahal. Template ini telah mendukung tampilan untuk beranda, halaman, posting tunggal, dan posting ganda. Pengembangan lebih lanjut diharapkan dapat menghasilkan ide-ide menarik, memungkinkan pengembang membuat tampilan per bagian tanpa kendala dari pembatasan dalam satu file, seperti pada Blogger XML."
                 },
                 "en": {
                     "summary": "Blogger Template.",
                     "contribution": "Creator",
-                    "technology": "XML, HTML, JS, VueJs",
+                    "technology": "XML, HTML, JS, VueJS",
                     "focus": "Creating a framework to simplify and improve the previously limited process of developing websites on Blogger, especially in terms of display which is limited to Blogger's XML syntax. The integration of Vue.js was done to provide flexibility to developers, allowing them to maximize the appearance and functionality of the website in a more dynamic way.",
                     "final": "The end result of this project is to provide an affordable and effective alternative for website developers. With this template, developers can utilize Blogger as another option other than hosting-based CMS which are usually more expensive. This template has supported views for homepages, pages, single posts, and multiple posts. Further development is expected to come up with interesting ideas, allowing developers to create section-by-section views without the constraints of restriction in a single file, as with Blogger XML."
                 }

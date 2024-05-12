@@ -122,3 +122,31 @@ const app = Vue.createApp({
 app.use(router);
 app.mount('#app');
 
+window.addEventListener('scroll', function() {
+    var titles = document.querySelectorAll('.category');
+    var stickyTitle = document.getElementById('sticky-title');
+    var currentTitle = '';
+    
+    for (var i = titles.length - 1; i >= 0; i--) {
+        var title = titles[i];
+        var rect = title.getBoundingClientRect();
+        
+        if (rect.top <= 0) {
+            currentTitle = '<h3>'+title.textContent+'</h3>';
+            break;
+        }
+    }
+    
+    var scrollPosition = window.scrollY;
+    var totalHeight = document.documentElement.scrollHeight;
+    var windowHeight = window.innerHeight;
+    var endThreshold = totalHeight - windowHeight * 1.3;
+
+    if (currentTitle !== '' && scrollPosition < endThreshold) {
+        stickyTitle.innerHTML = currentTitle;
+        stickyTitle.classList.add('active');
+    } else {
+        stickyTitle.classList.remove('active');
+        stickyTitle.innerHTML = '';
+    }
+});
