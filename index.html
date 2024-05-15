@@ -58,7 +58,7 @@
                         <router-link v-for="item in filterCategory(items, key)"
                             :to="{name:'detail',params:{slug:item.slug}}"
                             :id="'proj-'+item.slug">
-                            <div v-if="category != 'Other'" class="thumbnail" :style="{ backgroundImage: 'url(/assets/' + (item.name[0] == '*' ? 'placeholder.jpg' : 'projects/' + item.slug + '.png') + ')' }"></div>
+                            <div v-if="category != 'Other'" class="thumbnail" :style="{ backgroundImage: 'url(/assets/' + (item.name[0] == '*' ? 'placeholder.jpg' : 'thumbnails/' + item.slug + '.png') + ')' }"></div>
                             <b>{{item.name}}</b><br>
                             {{item.info[lang].summary}}<br>
                             {{item.period}}
