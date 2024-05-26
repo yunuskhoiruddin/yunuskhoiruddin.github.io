@@ -7,8 +7,8 @@
     "experience": [
         {
             "category": "web-dev",
-            "slug": "manajemen-Kuesioner",
-            "name": "*Manajemen Kuesioner",
+            "slug": "manajemen-kuesioner",
+            "name": "Manajemen Kuesioner",
             "period": 2024,
             "info": {
                 "id": {
@@ -30,7 +30,7 @@
         {
             "category": "web-dev",
             "slug": "kopmansaja",
-            "name": "*KOPMANSAJA",
+            "name": "KOPMANSAJA",
             "period": 2024,
             "info": {
                 "id": {
@@ -206,7 +206,7 @@
         {
             "category": "web-dev",
             "slug": "lms-sdm-mojorejo-2",
-            "name": "*LMS SDN Mojorejo 2",
+            "name": "LMS SDN Mojorejo 2",
             "period": 2021,
             "info": {
                 "id": {
@@ -250,7 +250,7 @@
         {
             "category": "web-dev",
             "slug": "sppcms-man-negara",
-            "name": "*SPPCMS MAN Negara",
+            "name": "SPPCMS MAN Negara",
             "period": 2017,
             "info": {
                 "id": {
