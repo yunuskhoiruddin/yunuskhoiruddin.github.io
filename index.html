@@ -35,8 +35,9 @@
             </router-view>
             <transition name="fade">
                 <footer v-if="!loading">
-                    Email: <a href="mailto:m.yunuskhoiruddin@gmail.com" target="_blank">m.yunuskhoiruddin@gmail.com</a> |
-                    <a href="https://linkedin.com/in/muhammad-yunus-khoiruddin" target="_blank">Linkedin</a>
+                    Email: <a href="mailto:m.yunuskhoiruddin@gmail.com" target="_blank">m.yunuskhoiruddin@gmail.com</a> -
+                    <a href="https://linkedin.com/in/muhammad-yunus-khoiruddin" target="_blank">Linkedin</a> -
+                    <a href="https://www.instagram.com/yunus_khoiruddin" target="_blank">Instagram</a>
                     <br>
                     <a @click="switchLang" class="lang">{{lang=='en'?'Language':'Bahasa'}}: {{lang=='en'?'English':'Indonesian'}}</a> | &copy; 2017-2024
                 </footer>
@@ -58,7 +59,7 @@
                         <router-link v-for="item in filterCategory(items, key)"
                             :to="{name:'detail',params:{slug:item.slug}}"
                             :id="'proj-'+item.slug">
-                            <div v-if="category != 'Other'" class="thumbnail" :style="{ backgroundImage: 'url(/assets/' + (item.name[0] == '*' ? 'placeholder.jpg' : 'thumbnails/' + item.slug + '.png') + ')' }"></div>
+                            <div v-if="category != 'Other'" class="thumbnail" :style="{ backgroundImage: 'url(/assets/' + (item.name[0] == '*' ? 'placeholder.jpg' : 'thumbnails/' + item.slug + '.jpg') + ')' }"></div>
                             <b>{{item.name}}</b><br>
                             {{item.info[lang].summary}}<br>
                             {{item.period}}
@@ -73,13 +74,15 @@
                 <h1 style="line-height: 1;">{{item.name}}</h1>
                 <p>{{item.period}} | {{item.info[lang].summary}}</p>
                 <b>Contribution:</b>
-                <p>{{item.info[lang].contribution}}</p>
+                <p>{{item.info[lang].contribution||'-'}}</p>
                 <b>Technology Used:</b>
-                <p>{{item.info[lang].technology}}</p>
+                <p>{{item.info[lang].technology||'-'}}</p>
                 <b>Project Focus:</b>
-                <p>{{item.info[lang].focus}}</p>
+                <p>{{item.info[lang].focus||'-'}}</p>
                 <b>Final Outcome:</b>
-                <p>{{item.info[lang].final}}</p>
+                <p>{{item.info[lang].final||'-'}}</p>
+                <b>Preview:</b>
+                <div class="preview" :style="{ backgroundImage: 'url(/assets/projects/' + item.slug + '.png)' }"></div>
             </section>
         </template>
     </body>

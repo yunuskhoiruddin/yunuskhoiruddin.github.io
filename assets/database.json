@@ -7,19 +7,41 @@
     "experience": [
         {
             "category": "web-dev",
-            "slug": "manajemen-kuesioner",
-            "name": "Manajemen Kuesioner",
+            "slug": "perpustakaanbimalang-id",
+            "name": "Perpustakaanbimalang.id",
             "period": 2024,
             "info": {
                 "id": {
-                    "summary": "Sistem Pengelolaan Kuesioner",
+                    "summary": "Sistem Perpustakaan.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
                     "focus": "",
                     "final": ""
                 },
                 "en": {
-                    "summary": "Questionnaire Management System",
+                    "summary": "Library System.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, Laravel, AlpineJS, Bootstrap",
+                    "focus": "",
+                    "final": ""
+                }
+            }
+        },
+        {
+            "category": "web-dev",
+            "slug": "manajemen-kuesioner",
+            "name": "Manajemen Kuesioner",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Sistem Pengelolaan Kuesioner.",
+                    "contribution": "Fulll stack developer",
+                    "technology": "PHP, Laravel, AlpineJS, Bootstrap",
+                    "focus": "",
+                    "final": ""
+                },
+                "en": {
+                    "summary": "Questionnaire Management System.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
                     "focus": "",
@@ -34,14 +56,14 @@
             "period": 2024,
             "info": {
                 "id": {
-                    "summary": "Sistem Pengelolaan Penjualan",
+                    "summary": "Sistem Pengelolaan Penjualan.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
                     "focus": "",
                     "final": ""
                 },
                 "en": {
-                    "summary": "Sales Management System",
+                    "summary": "Sales Management System.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
                     "focus": "",
@@ -56,7 +78,7 @@
             "period": 2023,
             "info": {
                 "id": {
-                    "summary": "Website Informasi Masjid",
+                    "summary": "Website Informasi Masjid.",
                     "contribution": "Front-end developer",
                     "technology": "HTML, CSS, JS, VueJS, AxiosJs, Blogger",
                     "focus": "Mengembangkan Website Informasi Masjid yang menyediakan blog untuk informasi kegiatan masjid, rincian fasilitas dan layanan masjid, serta informasi penting untuk jamaah terkait pembangunan masjid. Fokus utamanya adalah memberikan sumber informasi yang komprehensif dan mudah diakses bagi komunitas masjid.",

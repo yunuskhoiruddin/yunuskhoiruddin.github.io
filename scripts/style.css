@@ -184,7 +184,8 @@ footer {
     margin: 0;
 }
 
-.thumbnail {
+.thumbnail,
+.preview {
     width: 100%;
     height: auto;
     aspect-ratio: 3/2;
@@ -192,6 +193,10 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: .5rem;
+}
+
+.preview {
+    margin-top: .5rem;
 }
 
 @media screen and (max-width: 768px) {
