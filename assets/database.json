@@ -15,15 +15,15 @@
                     "summary": "Sistem Perpustakaan.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Kami mengembangkan sistem perpustakaan yang mencakup fitur peminjaman buku, pencarian katalog, dan pembaca eBook. Sistem ini dirancang untuk memudahkan pegawai dalam mengakses dan memanfaatkan koleksi perpustakaan secara efisien. Selain itu, kami menambahkan fitur tambahan seperti pembuatan daftar bacaan, memungkinkan pegawai untuk mengorganisasi dan mengelola bacaan mereka dengan lebih baik.",
+                    "final": "Kami berhasil menciptakan sistem perpustakaan yang fungsional dan user-friendly. Fitur peminjaman dan pencarian katalog mempermudah pegawai dalam menemukan dan meminjam buku, sementara pembaca eBook memungkinkan akses langsung ke buku digital. Penambahan fitur daftar bacaan memberikan kemudahan tambahan dalam mengelola bacaan, menciptakan pengalaman perpustakaan yang lebih baik dan terorganisir untuk pegawai Bank Indonesia Malang."
                 },
                 "en": {
                     "summary": "Library System.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
-                    "focus": "",
-                    "final": ""
+                    "focus": "We developed a library system that includes book borrowing, catalog search, and eBook reader features. The system was designed to make it easier for employees to access and utilize the library collection efficiently. In addition, we added additional features such as reading list creation, allowing employees to better organize and manage their reading.",
+                    "final": "We managed to create a functional and user-friendly library system. The borrowing and catalog search features make it easier for employees to find and borrow books, while the eBook reader allows direct access to digital books. The addition of a reading list feature provides additional convenience in managing reading, creating a better and more organized library experience for Bank Indonesia Malang employees."
                 }
             }
         },
@@ -37,15 +37,15 @@
                     "summary": "Sistem Pengelolaan Kuesioner.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Kami mengembangkan sistem pengelolaan kuesioner yang berfungsi sebagai platform bagi responden untuk menjawab berbagai kuesioner. Berbeda dengan sistem formulir biasa, kami diminta untuk membuat sistem ini khusus untuk responden tertentu atau tidak umum. Oleh karena itu, kami menerapkan fitur login dengan akun untuk memastikan bahwa hanya responden yang ditentukan yang dapat mengakses dan mengisi kuesioner.",
+                    "final": "Kami berhasil menciptakan sistem pengelolaan kuesioner yang aman dan terfokus. Fitur login memastikan bahwa hanya responden tertentu yang memiliki akses, meningkatkan keamanan dan validitas data yang dikumpulkan. Sistem ini menyediakan platform yang intuitif dan mudah digunakan bagi responden untuk menjawab kuesioner, serta memudahkan pengelola dalam memantau dan menganalisis hasil kuesioner."
                 },
                 "en": {
                     "summary": "Questionnaire Management System.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
-                    "focus": "",
-                    "final": ""
+                    "focus": "We developed a questionnaire management system that serves as a platform for respondents to answer various questionnaires. Unlike the regular form system, we were asked to make this system specialized for certain respondents or not public. Therefore, we implemented a login feature with an account to ensure that only the specified respondents can access and fill out the questionnaires.",
+                    "final": "We managed to create a secure and focused questionnaire management system. The login feature ensures that only certain respondents have access, enhancing the security and validity of the data collected. The system provides an intuitive and easy-to-use platform for respondents to answer the questionnaire, and makes it easy for managers to monitor and analyze the results."
                 }
             }
         },
@@ -59,15 +59,15 @@
                     "summary": "Sistem Pengelolaan Penjualan.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Kami mengembangkan sistem pengelolaan penjualan yang dirancang khusus untuk menangani penjualan titipan pedagang di koperasi sekolah. Sistem ini dilengkapi dengan fitur laporan harian otomatis yang dikirimkan langsung ke WhatsApp ketua pengurus koperasi. Fitur ini bertujuan untuk memudahkan pemantauan dan pengelolaan penjualan secara efisien.",
+                    "final": "Kami berhasil menciptakan sistem pengelolaan penjualan yang efektif dan user-friendly. Fitur laporan harian otomatis memastikan bahwa ketua pengurus koperasi selalu mendapatkan informasi terbaru tentang penjualan, meningkatkan transparansi dan efisiensi pengelolaan. Sistem ini memudahkan pengelolaan penjualan titipan pedagang, memastikan proses yang lebih terorganisir dan efisien bagi koperasi sekolah MAN Satu Jembrana."
                 },
                 "en": {
                     "summary": "Sales Management System.",
                     "contribution": "Fulll stack developer",
                     "technology": "PHP, Laravel, AlpineJS, Bootstrap",
-                    "focus": "",
-                    "final": ""
+                    "focus": "We developed a sales management system specifically designed to handle merchant entrusted sales in school cooperatives. The system is equipped with an automatic daily report feature that is sent directly to the WhatsApp of the head of the cooperative management. This feature aims to facilitate efficient monitoring and management of sales.",
+                    "final": "We managed to create an effective and user-friendly sales management system. The automated daily report feature ensures that the head of the cooperative board is always up-to-date with sales, increasing transparency and management efficiency. The system makes it easier to manage merchant entrusted sales, ensuring a more organized and efficient process for the MAN Satu Jembrana school cooperative."
                 }
             }
         },
@@ -302,15 +302,15 @@
                     "summary": "Website Lembaga Pemerintahan.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami dipercaya untuk memperbaiki antarmuka situs web agar lebih efisien dan mudah digunakan oleh para pengunjung. Kami memaksimalkan penggunaan platform WordPress yang sudah digunakan sebelumnya dan meningkatkan penggunaan plugin Elementor untuk memperbaiki tema dan halaman situs web. Selain itu, kami memperbarui versi WordPress untuk menjaga keamanan dan fungsionalitas situs web.",
+                    "final": "Kami berhasil menciptakan antarmuka situs web yang lebih efisien dan user-friendly. Penggunaan plugin Elementor memungkinkan perbaikan signifikan pada tampilan dan fungsionalitas halaman situs web. Dengan memperbarui WordPress, kami memastikan bahwa situs web tetap aman dan berfungsi dengan baik, memberikan pengalaman yang lebih baik bagi para pengunjung."
                 },
                 "en": {
                     "summary": "Government Institution Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As developers, we are entrusted with improving the website interface to make it more efficient and user-friendly for visitors. We maximized the use of the pre-existing WordPress platform and increased the use of the Elementor plugin to improve the website's themes and pages. In addition, we updated the WordPress version to maintain the security and functionality of the website.",
+                    "final": "We managed to create a more efficient and user-friendly website interface. The use of the Elementor plugin allowed for significant improvements to the look and functionality of the website pages. By updating WordPress, we ensured that the website remained secure and functioning properly, providing a better experience for the visitors."
                 }
             }
         },
@@ -324,15 +324,15 @@
                     "summary": "Website Berita.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami fokus untuk menciptakan pengalaman membaca yang nyaman dan konsisten di berbagai perangkat, mulai dari desktop hingga smartphone. Kami memaksimalkan penggunaan platform WordPress dan plugin Elementor untuk memastikan tampilan dan fungsionalitas situs web optimal di semua perangkat. Selain itu, kami memastikan bahwa versi WordPress yang digunakan selalu terbaru untuk menjaga keamanan dan kinerja situs.",
+                    "final": "Kami berhasil menciptakan situs web berita yang responsif dan nyaman diakses pada berbagai perangkat. Dengan penggunaan plugin Elementor, kami dapat merancang tata letak yang fleksibel dan menarik, memastikan tampilan yang konsisten di semua layar. Pembaruan WordPress memastikan situs tetap aman dan berfungsi dengan baik, memberikan pengalaman terbaik bagi para pembaca."
                 },
                 "en": {
                     "summary": "News Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As developers, we focus on creating a comfortable and consistent reading experience across multiple devices, from desktops to smartphones. We maximize the use of the WordPress platform and the Elementor plugin to ensure optimal website appearance and functionality across all devices. In addition, we ensure that the WordPress version used is always up-to-date to maintain site security and performance.",
+                    "final": "We managed to create a news website that is responsive and comfortably accessible on various devices. With the use of the Elementor plugin, we were able to design flexible and attractive layouts, ensuring a consistent look across all screens. WordPress updates ensure the site remains secure and works well, providing the best experience for readers."
                 }
             }
         },
@@ -346,15 +346,15 @@
                     "summary": "Website Pariwisata Domestik.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami fokus pada peningkatan tampilan dan fungsionalitas situs web pariwisata agar lebih mudah digunakan oleh pemilik dan pengunjung. Kami menambahkan tipe postingan khusus untuk destinasi sehingga pemilik situs dapat dengan mudah mengatur dan mempromosikan paket perjalanan. Dengan memaksimalkan penggunaan platform WordPress dan plugin Elementor, kami memastikan bahwa situs web responsif dan mudah diakses di berbagai perangkat.",
+                    "final": "Kami berhasil menciptakan situs web pariwisata yang lebih interaktif dan mudah dikelola. Penambahan tipe postingan destinasi memungkinkan pemilik situs untuk dengan mudah mengatur paket perjalanan, memberikan informasi yang jelas dan terstruktur kepada pengunjung. Dengan penggunaan plugin Elementor, kami memastikan tampilan yang menarik dan fungsional di semua perangkat."
                 },
                 "en": {
                     "summary": "Domestic Tourism Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As developers, we focused on improving the look and functionality of the tourism website to make it easier to use for owners and visitors. We added destination-specific post types so that site owners can easily organize and promote travel packages. By maximizing the use of the WordPress platform and the Elementor plugin, we ensured that the website is responsive and easily accessible on various devices. ",
+                    "final": "We managed to create a more interactive and manageable tourism website. The addition of destination post types allows site owners to easily organize travel packages, providing clear and structured information to visitors. With the use of the Elementor plugin, we ensured an attractive and functional display across all devices. "
                 }
             }
         },
@@ -368,15 +368,15 @@
                     "summary": "Website Kursus Bahasa Inggris.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami fokus untuk membuat situs web yang menjelaskan secara rinci tentang kursus bahasa Inggris, termasuk informasi tentang kursus, instruktur, keunggulan, dan paket pemesanan. Kami memastikan bahwa situs web ini tetap nyaman dilihat dan diakses di semua perangkat, dari desktop hingga smartphone. Penggunaan platform WordPress dan plugin Elementor memungkinkan kami untuk membuat tata letak yang menarik dan fungsional.",
+                    "final": "Kami berhasil menciptakan situs web kursus bahasa Inggris yang informatif dan responsif. Situs ini memberikan penjelasan yang jelas tentang kursus, instruktur, keunggulan, dan paket pemesanan, membantu calon peserta memahami dan memilih kursus dengan mudah. Dengan desain yang responsif, situs web ini tetap nyaman dilihat di berbagai perangkat, memberikan pengalaman pengguna yang konsisten dan menyenangkan."
                 },
                 "en": {
                     "summary": "English Course Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As developers, we focused on creating a website that explains in detail about English courses, including information about courses, instructors, advantages, and booking packages. We made sure that the website remains comfortable to view and access on all devices, from desktops to smartphones. The use of the WordPress platform and the Elementor plugin allowed us to create an attractive and functional layout.",
+                    "final": "We successfully created an informative and responsive English course website. The site provides clear explanations of the courses, instructors, advantages, and booking packages, helping potential participants understand and choose courses easily. With a responsive design, the website remains comfortable to view on various devices, providing a consistent and pleasant user experience."
                 }
             }
         },
@@ -390,15 +390,15 @@
                     "summary": "Website Kursus Bahasa.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami fokus untuk membuat situs web yang menjelaskan secara rinci tentang kursus bahasa, termasuk informasi tentang kursus, instruktur, keunggulan, dan paket pemesanan. Kami memastikan bahwa situs web ini tetap nyaman dilihat dan diakses di semua perangkat, dari desktop hingga smartphone. Penggunaan platform WordPress dan plugin Elementor memungkinkan kami untuk membuat tata letak yang menarik dan fungsional.",
+                    "final": "Kami berhasil menciptakan situs web kursus bahasa yang informatif dan responsif. Situs ini memberikan penjelasan yang jelas tentang kursus, instruktur, keunggulan, dan paket pemesanan, membantu calon peserta memahami dan memilih kursus dengan mudah. Dengan desain yang responsif, situs web ini tetap nyaman dilihat di berbagai perangkat, memberikan pengalaman pengguna yang konsisten dan menyenangkan."
                 },
                 "en": {
                     "summary": "Language Course Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As developers, we focused on creating a website that explains in detail about the language course, including information about the course, instructors, advantages, and booking packages. We made sure that the website remains comfortable to view and access on all devices, from desktops to smartphones. The use of the WordPress platform and the Elementor plugin allowed us to create an attractive and functional layout.",
+                    "final": "We successfully created an informative and responsive language course website. The site provides clear explanations of the courses, instructors, advantages, and booking packages, helping potential participants understand and choose courses easily. With a responsive design, the website remains comfortable to view on various devices, providing a consistent and pleasant user experience."
                 }
             }
         },
@@ -412,15 +412,15 @@
                     "summary": "Website Agensi Pemasaran.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami fokus untuk membuat situs web yang menjelaskan layanan pemasaran bisnis mereka, seperti pembuatan konten dan monetisasi. Kami memastikan tampilan situs web modern dan menarik sehingga memberikan kesan profesional. Penggunaan platform WordPress dan plugin Elementor memungkinkan kami untuk menciptakan desain yang estetis dan fungsional.",
+                    "final": "Kami berhasil menciptakan situs web agensi pemasaran yang modern dan profesional. Situs ini memberikan penjelasan yang jelas tentang layanan pemasaran bisnis, seperti pembuatan konten dan monetisasi, membantu calon klien memahami layanan yang ditawarkan. Dengan desain yang menarik, situs web ini memberikan kesan profesional yang kuat, menarik perhatian dan membangun kepercayaan calon klien."
                 },
                 "en": {
                     "summary": "Marketing Agency Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As developers, we focus on creating websites that explain their business marketing services, such as content creation and monetization. We ensured that the look of the website was modern and attractive, giving it a professional feel. The use of the WordPress platform and the Elementor plugin allowed us to create an aesthetically pleasing and functional design.",
+                    "final": "We successfully created a modern and professional marketing agency website. The site provides a clear explanation of business marketing services, such as content creation and monetization, helping potential clients understand the services offered. With an attractive design, the website gives a strong professional impression, attracting attention and building trust with potential clients."
                 }
             }
         },
@@ -434,15 +434,15 @@
                     "summary": "Website Penjualan Die-cast.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami menggunakan plugin WooCommerce untuk menangani penjualan pra-order dan proses pembayaran. Kami memastikan bahwa situs web ini memungkinkan pengguna untuk dengan mudah melakukan pra-order die-cast dan menyelesaikan pembayaran secara aman dan efisien. Desain dan fungsionalitas situs web dibuat untuk memberikan pengalaman berbelanja yang lancar dan nyaman bagi pengguna.",
+                    "final": "Kami berhasil menciptakan situs web penjualan die-cast yang fungsional dan mudah digunakan. Dengan integrasi WooCommerce, situs web ini dapat menangani penjualan pra-order dan pembayaran dengan efisien, memberikan pengalaman berbelanja yang lancar bagi pengguna. Desain yang menarik dan user-friendly memastikan bahwa pelanggan dapat dengan mudah menemukan dan memesan produk die-cast yang mereka inginkan."
                 },
                 "en": {
                     "summary": "Die-cast E-Commerce Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As developers, we use the WooCommerce plugin to handle the pre-order sales and payment process. We ensure that the website allows users to easily pre-order die-casts and complete payments securely and efficiently. The design and functionality of the website are made to provide a smooth and convenient shopping experience for users.",
+                    "final": "We successfully created a functional and easy-to-use die-cast sales website. With WooCommerce integration, the website can handle pre-order sales and payments efficiently, providing a smooth shopping experience for users. The attractive and user-friendly design ensures that customers can easily find and order the die-cast products they want."
                 }
             }
         },
@@ -456,15 +456,15 @@
                     "summary": "Website Properti Rumah.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami fokus untuk membuat situs web yang menjelaskan secara rinci tentang penjualan perumahan, termasuk aspek desain, tipe rumah, dan lokasi. Kami juga menangani penampilan harga, foto beberapa contoh unit, serta informasi kontak dengan rapi, sehingga calon pembeli dapat memahami dengan jelas apa yang mereka beli. Penggunaan platform WordPress dan plugin Elementor memungkinkan kami untuk menciptakan tata letak yang menarik dan fungsional.",
+                    "final": "Kami berhasil menciptakan situs web properti rumah yang informatif dan user-friendly. Situs ini memberikan penjelasan yang jelas tentang desain arsitektur, tipe rumah, dan lokasi, serta menampilkan harga, foto unit, dan informasi kontak dengan rapi. Desain yang menarik dan informatif membantu calon pembeli untuk membuat keputusan yang lebih baik dan terinformasi tentang pembelian properti."
                 },
                 "en": {
                     "summary": "Home Property Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As a developer, we focus on creating websites that explain in detail about residential sales, including aspects of design, house type, and location. We also took care to neatly display prices, photos of some sample units, as well as contact information, so that potential buyers can clearly understand what they are buying. The use of the WordPress platform and the Elementor plugin allowed us to create an attractive and functional layout.",
+                    "final": "We managed to create an informative and user-friendly home property website. The site provides a clear explanation of the architectural design, house type, and location, and neatly displays prices, unit photos, and contact information. The attractive and informative design helps potential buyers to make a better and informed decision about purchasing the property."
                 }
             }
         },
@@ -478,15 +478,15 @@
                     "summary": "Website Katalog Produk.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami fokus untuk membuat situs web yang menampilkan katalog produk rempah-rempah, baik dalam bentuk kering utuh maupun bubuk. Kami juga menambahkan fitur multi bahasa untuk memudahkan akses bagi pasar internasional. Penggunaan platform WordPress dan plugin Elementor memungkinkan kami untuk menciptakan tata letak yang menarik dan fungsional, serta memastikan bahwa situs web mudah dinavigasi dalam berbagai bahasa.",
+                    "final": "Kami berhasil menciptakan situs web katalog produk rempah-rempah yang informatif dan user-friendly. Situs ini menampilkan produk rempah-rempah dalam berbagai bentuk dengan jelas dan menarik. Penambahan fitur multi bahasa memungkinkan situs web untuk menjangkau pasar yang lebih luas, memudahkan pengguna dari berbagai negara untuk mengakses informasi produk. Desain yang responsif dan informatif memastikan pengalaman pengguna yang optimal di semua perangkat."
                 },
                 "en": {
                     "summary": "Product Catalog Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As developers, we focused on creating a website that features a catalog of spice products, both in whole dried and powdered form. We also added multi-language features for easy access for international markets. The use of the WordPress platform and the Elementor plugin allowed us to create an attractive and functional layout, as well as ensure that the website was easy to navigate in multiple languages.",
+                    "final": "We successfully created an informative and user-friendly spice product catalog website. The site displays spice products in various forms clearly and attractively. The addition of multilingual features allows the website to reach a wider market, making it easier for users from different countries to access product information. The responsive and informative design ensures an optimal user experience across all devices."
                 }
             }
         },
@@ -500,15 +500,15 @@
                     "summary": "Website Sekolah.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "Sebagai pengembang, kami fokus untuk menerapkan dan memperbaiki template yang sudah ada pada situs web SMPN 3 Tulungagung karena perbedaan versi WordPress. Selain memperbaiki template, kami juga menambahkan tampilan halaman profil guru dan ekstrakurikuler yang sebelumnya tidak ada dalam template. Penggunaan platform WordPress dan plugin Elementor memungkinkan kami untuk memperbaiki tampilan situs web dengan efisien dan menambahkan fitur baru yang dibutuhkan.",
+                    "final": "Kami berhasil memperbaiki dan mengembangkan situs web SMPN 3 Tulungagung. Template yang ada telah disesuaikan dengan versi WordPress terbaru, memastikan situs web berjalan dengan lancar. Penambahan halaman profil guru dan ekstrakurikuler memberikan informasi tambahan yang berguna bagi siswa dan orang tua, meningkatkan pengalaman pengguna dan memberikan tampilan yang lebih lengkap dan informatif."
                 },
                 "en": {
                     "summary": "School Website.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
-                    "focus": "",
-                    "final": ""
+                    "focus": "As developers, we focused on implementing and improving the existing template on the SMPN 3 Tulungagung website due to differences in the WordPress version. In addition to improving the template, we also added the appearance of the teacher profile and extracurricular pages that were not previously in the template. The use of the WordPress platform and the Elementor plugin allows us to efficiently improve the appearance of the website and add new features as needed.",
+                    "final": "We successfully improved and developed the website of SMPN 3 Tulungagung. The existing template has been adjusted to the latest WordPress version, ensuring the website runs smoothly. The addition of teacher and extracurricular profile pages provides additional useful information for students and parents, enhancing the user experience and providing a more complete and informative look."
                 }
             }
         },

@@ -81,8 +81,8 @@
                 <p>{{item.info[lang].focus||'-'}}</p>
                 <b>Final Outcome:</b>
                 <p>{{item.info[lang].final||'-'}}</p>
-                <b>Preview:</b>
-                <div class="preview" :style="{ backgroundImage: 'url(/assets/projects/' + item.slug + '.png)' }"></div>
+                <b v-if="item.category !== 'other'">Preview:</b>
+                <div v-if="item.category !== 'other'" class="preview" :style="{ backgroundImage: 'url(/assets/projects/' + item.slug + '.png)' }"></div>
             </section>
         </template>
     </body>
