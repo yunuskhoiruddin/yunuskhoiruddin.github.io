@@ -67,6 +67,18 @@ main {
     z-index: 1;
 }
 
+h3.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3.category span {
+    opacity: .5;
+    font-weight: normal;
+    font-size: small;
+}
+
 main #experience > article > div:hover > a:not( :hover) {
     opacity: .7;
 }

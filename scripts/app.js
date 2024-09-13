@@ -1,7 +1,16 @@
 const listCategories = {
-    'web-dev': 'Web Developer',
-    'wp-dev': 'Wordpress Developer',
-    'other': 'Other'
+    'web-dev': {
+        id: 'Pengembang Web',
+        en: 'Web Developer'
+    },
+    'wp-dev': {
+        id: 'Pengembang Web Wordpress',
+        en: 'Wordpress Developer'
+    },
+    'other': {
+        id: 'Lainnya',
+        en: 'Other'
+    },
 }
 async function database(){
     try {
@@ -132,7 +141,7 @@ window.addEventListener('scroll', function() {
         var rect = title.getBoundingClientRect();
         
         if (rect.top <= 0) {
-            currentTitle = '<h3>'+title.textContent+'</h3>';
+            currentTitle = title.outerHTML;
             break;
         }
     }

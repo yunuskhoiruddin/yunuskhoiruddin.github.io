@@ -39,27 +39,27 @@
                     <a href="https://linkedin.com/in/muhammad-yunus-khoiruddin" target="_blank">Linkedin</a> -
                     <a href="https://www.instagram.com/yunus_khoiruddin" target="_blank">Instagram</a>
                     <br>
-                    <a @click="switchLang" class="lang">{{lang=='en'?'Language':'Bahasa'}}: {{lang=='en'?'English':'Indonesian'}}</a> | &copy; 2017-2024
+                    <a @click="switchLang" class="lang">{{lang=='en'?'Language':'Bahasa'}}: {{lang=='en'?'English':'Indonesian'}}</a> | &copy; 2017 - 2024
                 </footer>
             </transition>
         </template>
         <template id="home">
             <section id="skills">
-                <h2>{{lang=='en'?'Skills':'Keterampilan'}}</h2>
-                <article v-for="(text, title) in skills" :key="title">
-                    <h3>{{title}}</h3>
-                    <p>{{text}}</p>
+                <h2>✦ {{lang=='en'?'Skills':'Keterampilan'}}</h2>
+                <article v-for="(skill, skillId) in skills" :key="skillId">
+                    <h3>{{skill.skill[lang]}}</h3>
+                    <p>{{skill.content}}</p>
                 </article>
             </section>
             <section id="experience">
-                <h2>{{lang=='en'?'Experience':'Pengalaman'}}</h2>
+                <h2>✦ {{lang=='en'?'Experience':'Pengalaman'}}</h2>
                 <article v-for="(category ,key) in categories" :key="key">
-                    <h3 class="category">{{category}}:</h3>
+                    <h3 class="category">{{category[lang]}}:<span>{{filterCategory(items, key).length}} {{lang=='en'?'Projects':'Proyek'}}</span></h3>
                     <div>
                         <router-link v-for="item in filterCategory(items, key)"
                             :to="{name:'detail',params:{slug:item.slug}}"
                             :id="'proj-'+item.slug">
-                            <div v-if="category != 'Other'" class="thumbnail" :style="{ backgroundImage: 'url(/assets/' + (item.name[0] == '*' ? 'placeholder.jpg' : 'thumbnails/' + item.slug + '.jpg') + ')' }"></div>
+                            <div v-if="category.en != 'Other'" class="thumbnail" :style="{ backgroundImage: 'url(/assets/' + (item.name[0] == '*' ? 'placeholder.jpg' : 'thumbnails/' + item.slug + '.jpg') + ')' }"></div>
                             <b>{{item.name}}</b><br>
                             {{item.info[lang].summary}}<br>
                             {{item.period}}
@@ -69,19 +69,19 @@
             </section>
         </template>
         <template id="detail">
-            <router-link :to="{name:'home'}">Back</router-link>
+            <router-link :to="{name:'home'}">{{lang=='en'?'Back':'Kembali'}}</router-link>
             <section id="detail" v-if="item">
                 <h1 style="line-height: 1;">{{item.name}}</h1>
                 <p>{{item.period}} | {{item.info[lang].summary}}</p>
-                <b>Contribution:</b>
+                <b>{{lang=='en'?'Contribution':'Kontribusi'}}:</b>
                 <p>{{item.info[lang].contribution||'-'}}</p>
-                <b>Technology Used:</b>
+                <b>{{lang=='en'?'Technology Used':'Teknologi yang Digunakan'}}:</b>
                 <p>{{item.info[lang].technology||'-'}}</p>
-                <b>Project Focus:</b>
+                <b>{{lang=='en'?'Project Focus':'Fokus Proyek'}}:</b>
                 <p>{{item.info[lang].focus||'-'}}</p>
-                <b>Final Outcome:</b>
+                <b>{{lang=='en'?'Final Outcome':'Hasil Akhir'}}:</b>
                 <p>{{item.info[lang].final||'-'}}</p>
-                <b v-if="item.category !== 'other'">Preview:</b>
+                <b v-if="item.category !== 'other'">{{lang=='en'?'Preview':'Pratinjau'}}:</b>
                 <div v-if="item.category !== 'other'" class="preview" :style="{ backgroundImage: 'url(/assets/projects/' + item.slug + '.png)' }"></div>
             </section>
         </template>

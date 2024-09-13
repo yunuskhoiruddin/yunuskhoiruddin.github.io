@@ -9,7 +9,7 @@ def resize_images_in_folder(source_folder, target_folder, target_width=400):
             with Image.open(source_path) as img:
                 width_percent = (target_width / float(img.size[0]))
                 target_height = int((float(img.size[1]) * float(width_percent)))
-                img = img.resize((target_width, target_height), Image.ANTIALIAS)
+                img = img.resize((target_width, target_height), Image.Resampling.LANCZOS)
                 
                 # Convert image to RGB if not already in that mode (to ensure compatibility with JPG format)
                 if img.mode != 'RGB':

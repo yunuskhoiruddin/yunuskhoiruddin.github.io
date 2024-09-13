@@ -1,9 +1,27 @@
 {
-    "skills": {
-        "Programming languages": "HTML5, CSS3, ES6 (JavaScript), PHP, MYSQL, Python.",
-        "Frameworks": "Laravel, Codeignaiter, VueJS, AlpineJS, Bootstrap, WordPress.",
-        "Tools": "CLI, IDE (VSCode), VCS (Git), API Development (Postman), VPS (Digitalocean & BizGio), UI/UX & Design (Figma & AI)."
-    },
+    "skills": [
+        {
+            "skill": {
+                "id": "Bahasa Pemrograman",
+                "en": "Programming Languages"
+            },
+            "content": "HTML5, CSS3, ES6 (JavaScript), PHP, MYSQL, Python."
+        },
+        {
+            "skill": {
+                "id": "Kerangka Kerja",
+                "en": "Frameworks"
+            },
+            "content": "Laravel, Codeignaiter, VueJS, AlpineJS, Bootstrap, WordPress."
+        },
+        {
+            "skill": {
+                "id": "Peralatan",
+                "en": "Tools"
+            },
+            "content": "CLI, IDE (VSCode), VCS (Git), API Development (Postman), VPS (Digitalocean & BizGio), UI/UX & Design (Figma & AI)."
+        }
+    ],
     "experience": [
         {
             "category": "web-dev",
@@ -292,6 +310,28 @@
             }
         },
 
+        {
+            "category": "wp-dev",
+            "slug": "dlpgointernational-com",
+            "name": "Dlpgointernational.com",
+            "period": 2024,
+            "info": {
+                "id": {
+                    "summary": "Website Katalog Produk Supplier.",
+                    "contribution": "Front-end developer",
+                    "technology": "Wordpress, Elementor",
+                    "focus": "Menciptakan sebuah situs web katalog produk untuk DLPGO International, yang berfokus pada menyediakan platform bagi supplier untuk memamerkan produk-produk unggulan mereka. Tujuan utama proyek ini adalah menghadirkan platform yang user-friendly dan informatif, sehingga supplier dapat menampilkan berbagai produk ekspor berkualitas kepada pasar global dengan efisien.",
+                    "final": "Kami berhasil mengembangkan situs web katalog produk untuk DLPGO International yang memungkinkan supplier dengan mudah menampilkan produk-produk ekspor unggulan mereka. Halaman utama dirancang dengan navigasi yang intuitif untuk memudahkan pengunjung menjelajahi produk berdasarkan kategori. Setiap halaman produk dilengkapi dengan deskripsi detail dan informasi kontak supplier, sehingga memfasilitasi proses komunikasi dan potensi kerjasama bisnis dengan pelanggan internasional."
+                },
+                "en": {
+                    "summary": "Supplier Product Catalog Website.",
+                    "contribution": "Front-end developer",
+                    "technology": "Wordpress, Elementor",
+                    "focus": "Creating a product catalog website for DLPGO International, focused on providing a platform for suppliers to showcase their top-quality export products. The primary goal of this project is to deliver a user-friendly and informative platform, enabling suppliers to efficiently present their products to a global market.",
+                    "final": "We successfully developed a product catalog website for DLPGO International, allowing suppliers to easily display their premium export products. The main page is designed with intuitive navigation to help visitors explore products by category. Each product page includes detailed descriptions and supplier contact information, facilitating communication and potential business partnerships with international customers."
+                }
+            }
+        },
         {
             "category": "wp-dev",
             "slug": "bkd-trenggalek-kab-go-id",
@@ -607,7 +647,7 @@
             "period": 2021,
             "info": {
                 "id": {
-                    "summary": "Freelance Agency Website.",
+                    "summary": "Website Agensi Pekerja Lepas.",
                     "contribution": "Front-end developer",
                     "technology": "PHP, Wordpress, Elementor",
                     "focus": "Menciptakan sebuah situs web WordPress untuk agensi IT berbasis freelance. Fokus utama yang diinginkan adalah menyediakan platform informasi online yang mencerminkan layanan yang ditawarkan oleh agensi ini, mencakup konsultasi teknologi, pembuatan aplikasi mobile, pengembangan website, dan pencarian tenaga kerja IT yang berkualitas.",
